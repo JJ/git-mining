@@ -28,16 +28,42 @@ while ( $repos->has_next_page ) {
 
 
 my $es = Search::Elasticsearch->new();
+my $es_indices = $es->indices();
 my $index = $repo;
 $index =~ s!/!-!;
-$es->indices->create(index=> $index);
+
+if ( !$es_indices->exists( index=> $index ) ) {
+  $es->indices->create(index=> $index);
+}
+if ( !$es_indices->exists( index=> "all-users" ) ) {
+  $es->indices->create(index=> "all-users");
+}
+
 for my $c ( @contributors ) {
-  my $user_info = $users->show($c->{'login'});
+
+  my %this_user = ( index => 'all-users',
+		    type => 'user',
+		    id => $c->{'login'} );
+  # Check global index
+  my $user_info;
+  if ( $es->exists( %this_user ) ) {
+    $user_info = $es->get( %this_user );
+  }  else {
+    $user_info = $users->show($c->{'login'});
+    $es->index(
+	       index   => "all_users",
+	       type    => 'user',
+	       id      => $c->{'login'},
+	       body    => $user_info
+	      );
+  }
+  
   $es->index(
 	     index   => $index,
 	     type    => 'user',
 	     id      => $c->{'login'},
 	     body    => $user_info
 	    );
+  
   say $user_info;
 }
