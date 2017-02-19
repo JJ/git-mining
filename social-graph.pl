@@ -6,7 +6,7 @@ use warnings;
 use v5.20;
 
 use Net::GitHub::V3;
-use Search::Elascticsearch;
+use Search::Elasticsearch;
 
 
 # Process args
@@ -28,10 +28,13 @@ while ( $repos->has_next_page ) {
 
 
 my $es = Search::Elasticsearch->new();
+my $index = $repo;
+$index =~ s!/!-!;
+$es->indices->create(index=> $index);
 for my $c ( @contributors ) {
   my $user_info = $users->show($c->{'login'});
   $es->index(
-	     index   => "repo-$repo",
+	     index   => $index,
 	     type    => 'user',
 	     id      => $c->{'login'},
 	     body    => $user_info
