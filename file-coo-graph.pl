@@ -28,6 +28,7 @@ my @these_revs = `cd $dir; git rev-list --all`;
 my $commit_net = SNA::Network->new();
 my %commit_nodes;
 my $time = 1;
+say "id0 id1 time";
 for my $commit ( reverse @these_revs ) {
   chop $commit;
   my $commit_info = $repo->command('show', '--pretty=fuller', $commit);
