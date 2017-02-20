@@ -2,11 +2,10 @@
                                         #load libraries
 # from http://estebanmoro.org/2015/12/temporal-networks-with-r-and-igraph-updated/
 require(igraph)
-require("RColorBrewer")
  
 #load the edges with time stamp
 #there are three columns in edges: id1,id2,time
-edges <- read.table("vue-edges.csv",header=T)
+edges <- read.table("data/vue-edges.csv",header=T)
  
 #generate the full graph
 g <- graph.data.frame(edges,directed=F)
@@ -22,11 +21,31 @@ total_time <- max(E(g)$time)
 
                                         #Time loop starts
 
+measures <- data.frame(commit=character(),
+                       degree= character(),
+                       betweenness=character(),
+                       network.size = character(),
+                       connected.size = character(),
+                       cc.size = character(),
+                       transitivity = character())
+
 for(time in seq(3,total_time)){
-  #remove edges which are not present
-  gt <- delete_edges(g,which(E(g)$time > time))
-  #with the new graph, we update the layout a little bit
+                                        #remove edges which are not present
+    gt <- delete_edges(g,which(E(g)$time > time))
+    betweenness <- betweenness( gt )
+    transitivity <- transitivity( gt )
+
+    measures <- rbind( measures,
+                      data.frame( commit = time,
+                                 degree = mean( degree( gt )),
+                                 betweenness = mean(betweenness),
+                                 network.size = vcount( gt ),
+                                 connected.rate =  components(gt)$csize[[1]]/vcount( gt ),
+                                 cc.size = components(gt)$csize[[1]],
+                                 transitivity = transitivity ))
+    
     
 }
-dev.off()
+save(measures,file="vue.Rda")
+write.table(measures,file='vue.csv')
 
