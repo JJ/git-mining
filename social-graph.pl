@@ -1,5 +1,14 @@
 #!/usr/bin/env perl
 
+=head1 NAME
+
+social-graph.pl - Download social graph stats from a github repo and store them in Elastic Search
+
+=head1 SEE ALSO
+
+Check out L<http://github.com/JJ/literaturame>, for some results, generated reports, R files for analyzing them, and so on. I would be grateful if you added your results to the L<https://github.com/JJ/literaturame/blob/master/data.md> file via pull request.
+
+=cut
 use strict;
 use warnings;
 
@@ -7,7 +16,6 @@ use v5.20;
 
 use Net::GitHub::V3;
 use Search::Elasticsearch;
-
 
 # Process args
 my $repo = shift || die "Need a repository author/repo-name";
