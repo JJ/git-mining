@@ -1,4 +1,8 @@
 #!/usr/bin/env Rscript
+
+# use with ./network-evolution.R filename 
+# Don't use any extension
+
 args = commandArgs(trailingOnly=TRUE)
 
                                         #this version of the script has been tested on igraph 1.0.1

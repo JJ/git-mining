@@ -1,11 +1,20 @@
-#this version of the script has been tested on igraph 1.0.1
+#!/usr/bin/env Rscript
+
+
+# use with ./network-evolution.R filename 
+# Don't use any extension
+
+args = commandArgs(trailingOnly=TRUE)
+
+
+                                        #this version of the script has been tested on igraph 1.0.1
                                         #load libraries
 # from http://estebanmoro.org/2015/12/temporal-networks-with-r-and-igraph-updated/
 require(igraph)
  
 #load the edges with time stamp
 #there are three columns in edges: id1,id2,time
-edges <- read.table("vue-edges.csv",header=T)
+edges <- read.table(paste0(args[1],".csv"),header=T)
  
 #generate the full graph
 g <- graph.data.frame(edges,directed=F)
@@ -20,7 +29,7 @@ layout.old <- norm_coords(layout.graphopt(gt), xmin = -1, xmax = 1, ymin = -1, y
 #total time of the dynamics
 total_time <- max(E(g)$time)
 #Output for each frame will be a png with HD size 1600x900 <img draggable="false" class="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/2.2.1/svg/1f642.svg">
-png(file="animation/vue%03d.png", width=1600,height=900)
+png(file=paste0("animation/",args[1],"%03d.png"), width=1600,height=900)
 #Time loop starts
 for(time in seq(3,total_time)){
   #remove edges which are not present
