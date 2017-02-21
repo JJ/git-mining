@@ -32,8 +32,9 @@ my @these_revs = `cd $dir; git rev-list --all`;
 my $commit_net = SNA::Network->new();
 my %commit_nodes;
 my %extensions;
+my %folders;
 my $time = 1;
-say "id0 id1 time";
+my $edges = "id0 id1 time\n";
 for my $commit ( reverse @these_revs ) {
   chop $commit;
   my $commit_info = $repo->command('show', '--pretty=fuller', $commit);
@@ -41,6 +42,7 @@ for my $commit ( reverse @these_revs ) {
   for (my $i = 0; $i <= $#files; $i++ ) {
     my $f = $files[$i];
     my $this_ext = extension( $f );
+    my $this_folder = folder( $f );
     if ( !$commit_nodes{$f} ) {
       my $this_node = $commit_net->create_node( name => "\"$f\"" );
       $commit_nodes{$f} = $this_node;
@@ -48,37 +50,41 @@ for my $commit ( reverse @these_revs ) {
     if ( $i < $#files ) {
       for ( my $j = $i+1; $j<=$#files; $j++ ) {
 	my $that_ext = extension( $files[$j]);
+	my $that_folder = folder( $files[$j]);
 	if ( !$commit_nodes{$files[$j]} ) {
 	  my $this_node = $commit_net->create_node( name => "\"$files[$j]\"" );
 	  $commit_nodes{$files[$j]} = $this_node;
 	}
 	create_update_edge_extensions( \%extensions, $this_ext, $that_ext );
+	create_update_edge_extensions( \%folders, $this_folder, $that_folder );
 	$commit_net->create_edge( source_index => $commit_nodes{$f}->{'index'},
 				  target_index => $commit_nodes{$files[$j]}->{'index'});
-	say "$f $files[$j] $time";
+	$edges .= "$f $files[$j] $time\n";
       }
     }
   }
   $time++;
 }
 
-write_extension_file( $repo_name, \%extensions);
+write_extension_file( "extensions", $repo_name, \%extensions);
+write_extension_file( "folders", $repo_name, \%folders);
 write_correct_file( $commit_net, "commit", $repo_name  );
+write_file("edges-$repo_name.csv", $edges );
 
 # Hack for avoiding errors in Pajek file and writing two files.
 sub write_correct_file {
     my ($net, $name, $repo_name) = @_;
-    $net->calculate_authorities_and_hubs();
-    $net->calculate_betweenness;
     $net->save_to_pajek_net("$name-$repo_name.net");
     my $net_file = read_file( "$name-$repo_name.net" );
     $net_file =~ s/\*Arcs/*arcs/;
     write_file("$name-$repo_name.net", $net_file);
-    $net->save_to_gdf(filename => "$name-$repo_name.gdf",  node_fields => ['betweenness','authority','hub'] );
-  }
+    $net->save_to_gdf(filename => "$name-$repo_name.gdf" );
+
+}
 
 # Work with extensions
 sub write_extension_file {
+  my $type = shift;
   my $repo = shift;
   my $hash = shift;;
   my %nodes;
@@ -96,7 +102,7 @@ sub write_extension_file {
 				   weight => $hash->{$k}{$j});
     }
   }
-  write_correct_file( $extension_net, "extensions", $repo );
+  write_correct_file( $extension_net, $type, $repo );
 }
 
 #Extract extension
@@ -104,6 +110,13 @@ sub extension {
   my $f = shift;
   my ($this_ext) = ( $f =~ /\.(\w+)$/ );
   return $this_ext || "Ø";
+}
+
+#Extract extension
+sub folder {
+  my $f = shift;
+  my @path = split("/",$f);
+  return ($path[1]? $path[0] : "/");
 }
 
 #Create or add to edge
