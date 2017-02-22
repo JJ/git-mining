@@ -1,0 +1,359 @@
+ARRAY(0x2699260)
+Dave Rolsky <autarch@urth.org>
+2088
+Jesse Luehrs <doy@tozt.net>
+993
+Karen Etheridge <ether@cpan.org>
+726
+Upasana Shukla <me@upasana.me>
+721
+Stevan Little <stevan.little@iinteractive.com>
+468
+Shawn M Moore <sartak@gmail.com>
+348
+Yuval Kogman <nothingmuch@woobling.org>
+282
+Florian Ragwitz <rafl@debian.org>
+131
+Dave Rolsky <autarch@houseabsolute.urth.org>
+111
+Hans Dieter Pearcey <hdp@weftsoar.net>
+105
+Chris Prather <chris@prather.org>
+97
+gfx <gfuji@cpan.org>
+63
+Graham Knop <haarg@haarg.org>
+45
+Matt S Trout <mst@shadowcat.co.uk>
+42
+Shawn M Moore <code@sartak.org>
+37
+Tomas Doran <bobtfish@bobtfish.net>
+33
+Guillermo Roditi <groditi@gmail.com>
+32
+John Napiorkowski <jjnapiork@cpan.org>
+32
+Ricardo Signes <rjbs@cpan.org>
+31
+Upasana <me@upasana.me>
+25
+Chris Prather <cprather@hdpublishing.com>
+25
+Shawn M Moore <sartak@bestpractical.com>
+23
+Arthur Axel 'fREW' Schmidt <frioux@gmail.com>
+20
+Kent Fredric <kentfredric@gmail.com>
+17
+Aankhen <aankhen@gmail.com>
+16
+Ricardo SIGNES <rjbs@cpan.org>
+13
+Todd Hepler <thepler@employees.org>
+11
+Jonathan Rockway <jon@jrock.us>
+10
+Shlomi Fish <shlomif@iglu.org.il>
+9
+Gerda Shank <gerda.shank@gmail.com>
+9
+Paul Driver <frodwith@gmail.com>
+8
+Perlover <perlover@perlover.com>
+8
+Leon Brocard <acme@astray.com>
+7
+Dagfinn Ilmari Mannsåker <ilmari@ilmari.org>
+7
+Brian Manning <elspicyjack@gmail.com>
+7
+Rafael Kitover <rkitover@cpan.org>
+7
+Brad Bowman <bsb@strategicdata.com.au>
+7
+gfx <g.psy.va@gmail.com>
+7
+Anders Nor Berle <berle@cpan.org>
+7
+Chris Weyl <cweyl@alumni.drew.edu>
+6
+Stevan Little <stevan@Macintosh.local>
+6
+Olivier Mengué <dolmen@cpan.org>
+6
+Robert Buels <rmb32@cornell.edu>
+6
+Matt S Trout <matthewt@hercule.scsys.co.uk>
+6
+arcanez <justin.d.hunter@gmail.com>
+6
+Karen Etheridge <karen@etheridge.ca>
+5
+Tomas Doran (t0m) <t0m@state51.co.uk>
+5
+Ævar Arnfjörð Bjarmason <avarab@gmail.com>
+5
+Justin Hunter <justin.d.hunter@gmail.com>
+5
+Scott McWhirter <konobi@cpan.org>
+5
+Marcel Grünauer <hanekomu@gmail.com>
+5
+Stevan Little <stevan@localhost.(none)>
+5
+Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯 <daxim@cpan.org>
+4
+Adam J. Foxson <fhoxh@pobox.com>
+4
+Patrick Donelan <pat@patspam.com>
+4
+Jay Hannah <jay@jays.net>
+4
+Stefan O'Rear <stefanor@cox.net>
+4
+Dylan William Hardison <dylan@hardison.net>
+4
+Karen Etheridge <github@froods.org>
+4
+Dan Dascalescu <ddascaNOSPAMlescu@gmail.com>
+4
+Paul Jamieson Fenwick <pjf@perltraining.com.au>
+4
+Mark A. Stratman <stratman@gmail.com>
+4
+Tokuhiro Matsuno <tokuhirom@gp.ath.cx>
+4
+Cory Watson <github@onemogin.com>
+3
+Marcus Ramberg <marcus@nordaaker.com>
+3
+Marc Mims <marc@questright.com>
+3
+Cory G Watson <gphat@onemogin.com>
+3
+John Napiorkowski <johnn@John-Napiorkowski-MacBook-Pro.local>
+3
+Todd Hepler <thepler@genome.wustl.edu>
+3
+Mark Allen <mrallen1@yahoo.com>
+3
+jhannah <jay@jays.net>
+3
+Lars Dieckow <daxim@cpan.org>
+3
+Eric Wilhelm <ewilhelm@cpan.org>
+3
+Zachary Lome <zachary.lome@baml.com>
+3
+chansen <chansen@cpan.org>
+3
+Christian Hansen <chansen@cpan.org>
+3
+Robert 'phaylon' Sedlacek <rs@474.at>
+3
+matthof <rmhofmann@gmail.com>
+3
+Jess Robinson <cpan@desert-island.me.uk>
+3
+Paweł Murias <pawelmurias@gmail.com>
+2
+Nelo Onyiah <io1@sanger.ac.uk>
+2
+Matthew Horsfall <wolfsage@gmail.com>
+2
+Piers Cawley <pdcawley@bofh.org.uk>
+2
+Wallace Reis <reis.wallace@gmail.com>
+2
+Robert Boone <robo4288@gmail.com>
+2
+Gordon Irving <goraxe@goraxe.me.uk>
+2
+Robin V <robinsp-gmail-com@nospam.com>
+2
+shelling <navyblueshellingford@gmail.com>
+2
+Moritz Onken <onken@houseofdesign.de>
+2
+mateu <hunter@missoula.org>
+2
+Christopher J. Madsen <perl@cjmweb.net>
+2
+rodrigolive <rodrigolive@gmail.com>
+2
+Paul Fenwick <pjf@perltraining.com.au>
+2
+Chip <chip@pobox.com>
+2
+Aran Clary Deltac <bluefeet@cpan.org>
+2
+2shortplanks <mark@twoshortplanks.com>
+2
+Mike Whitaker <mike@altrion.org>
+2
+Thomas Sibley <tsibley@cpan.org>
+2
+Jason May <jason.a.may@gmail.com>
+2
+Norbert Buchmuller <norbi@nix.hu>
+2
+Eden Cardim <e.cardim@shadowcat.co.uk>
+2
+Ash Berlin <ash_github@firemirror.com>
+2
+Curtis Jewell <perl@csjewell.fastmail.us>
+2
+nperez <nperez@cpan.org>
+2
+Chia-liang Kao <clkao@clkao.org>
+2
+dmaestro <dmaestro@users.noreply.github.com>
+2
+Michael LaGrasta <michael@lagrasta.com>
+2
+Evan Carroll <evan@dealermade.com>
+2
+Daisuke Maki (lestrrat) <daisuke@endeworks.jp>
+2
+Pedro Melo <melo@simplicidade.org>
+2
+Oliver Charles <oliver.g.charles@googlemail.com>
+1
+pktm <pktm@users.noreply.github.com>
+1
+Jesse Vincent <jesse@bestpractical.com>
+1
+John Goulah <jgoulah@cpan.org>
+1
+chromatic <chromatic@wgz.org>
+1
+Ryan Fox <foxryan@gmail.com>
+1
+Jay Kuri <jayk@jay-kuris-macbook.local>
+1
+Matt Kraai <kraai@ftbfs.org>
+1
+Frew Schmidt <frioux@gmail.com>
+1
+lestrrat <lestrrat+github@gmail.com>
+1
+Adam Kennedy <adamk@cpan.org>
+1
+Michael Schout <mschout@gkg.net>
+1
+Moritz Onken <onken@netcubed.de>
+1
+Andy Jack <github@veracity.ca>
+1
+Yanick Champoux <yanick@babyl.dyndns.org>
+1
+Brendan Byrd <Perl@ResonatorSoft.org>
+1
+Daisuke Maki <dmaki@cpan.org>
+1
+Chad Granum <chad.granum@dreamhost.com>
+1
+Michael Rykov <mrykov@gmail.com>
+1
+Nathan Gray <kolibrie@graystudios.org>
+1
+Mateu X Hunter <hunter@missoula.org>
+1
+joel <joel@fysh.org>
+1
+Zoffix Znet <cpan@zoffix.com>
+1
+Dann <techmemo@gmail.com>
+1
+Chankey Pathak <chankey007@gmail.com>
+1
+Ben Hutton <relequestual@gmail.com>
+1
+Peter Shangov <pshangov@yahoo.com>
+1
+Olof Johansson <olof@ethup.se>
+1
+michaelr <michaelr@michaelr-laptop.(none)>
+1
+Piotr Roszatycki <piotr.roszatycki@gmail.com>
+1
+Justin DeVuyst <justin@devuyst.com>
+1
+Christian Walde (Mithaldu) <walde.christian@googlemail.com>
+1
+Olaf Alders <olaf@wundersolutions.com>
+1
+diakopter <diakopter@gmail.com>
+1
+Henry Van Styn <vanstyn@intellitree.com>
+1
+mephinet <mephinet@gmx.net>
+1
+t0m <bobtfish@bobtfish.net>
+1
+Scott Eisenberg <git@scotteisenberg.com>
+1
+Upasana Shukla <me@upasna.in>
+1
+John Napiorkowski <johnn@new-host.home>
+1
+Sam Vilain <sam.vilain@catalyst.net.nz>
+1
+Phillip Smith <ps@phillipadsmith.com>
+1
+Aaron Cohen <aarondcohen@gmail.com>
+1
+rouzier <rouzier@gmail.com>
+1
+mauke <l.mai@web.de>
+1
+James Marca <james@activimetrics.com>
+1
+Lukas Mai <l.mai@web.de>
+1
+Brad Bowman <github@bereft.net>
+1
+wickline <m-s-w-github@wickline.org>
+1
+Dave Romano <dave.romano@ionzero.com>
+1
+franck cuny <franck@lumberjaph.net>
+1
+dandv <bigbang7@gmail.com>
+1
+hakim <hakim.cassimally@gmail.com>
+1
+David Leadbeater <dgl@dgl.cx>
+1
+David Steinbrunner <dsteinbrunner@MountainBook-Pro.local>
+1
+Philippe Bruhat (BooK) <book@cpan.org>
+1
+Paul Cochrane <paul@liekut.de>
+1
+Jeff Bisbee <jbisbee@biz.(none)>
+1
+gregor herrmann <gregoa@debian.org>
+1
+Robin Edwards <robin.ge@gmail.com>
+1
+Tomas Doran (t0m <t0m@state51.co.uk>
+1
+Jay Allen <jay@endevver.com>
+1
+Simon Reinhardt <simon.reinhardt@stud.uni-regensburg.de>
+1
+John Douglas Porter <jdporter@cpan.org>
+1
+A. Sinan Unur <nanis@cpan.org>
+1
+sue spence <virtuallysue@gmail.com>
+1
+Tuomas Jormola <tj@solitudo.net>
+1
+Ansgar Burchardt <ansgar@43-1.org>
+1
+Ash Berlin <ash@cpan.org>
+1
