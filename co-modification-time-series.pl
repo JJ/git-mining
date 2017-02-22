@@ -44,9 +44,15 @@ my $repo_name = $commits->name();
 my $writable = join("\n", ("Number.of.files",@number_of_files));
 write_file("$repo_name-files-per-commit.csv", $writable);
 my @ranked_authors = sort { $commits_by_author{$b} <=>  $commits_by_author{$a} } keys %commits_by_author;
-$writable = join("\n",(["author","commits"], %commits_by_author{ @ranked_authors} ) );
+$writable = "author,commits\n";
+for my $a ( @ranked_authors ) {
+  $writable .= "$a, $commits_by_author{$a}\n";
+}
 write_file("$repo_name-commits_per_author.csv", $writable );
 
 my @ranked_files = sort { $commits_per_file{$b} <=>  $commits_per_file{$a} } keys %commits_per_file;
-$writable = join("\n",(["file","commits"], %commits_per_file{ @ranked_files} ));
+$writable = "file,commits\n";
+for my $a ( @ranked_files ) {
+  $writable .= "$a, $commits_per_file{$a}\n";
+}
 write_file("$repo_name-commits_per_file.csv", $writable  );
