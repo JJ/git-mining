@@ -31,6 +31,9 @@ total_time <- max(E(g)$time)
 measures <- data.frame(commit=character(),
                        degree= character(),
                        betweenness=character(),
+                       closeness=character(),
+                       distance=character(),
+                       diameter=character(),
                        network.size = character(),
                        connected.size = character(),
                        cc.size = character(),
@@ -43,9 +46,12 @@ for(time in seq(3,total_time)){
     transitivity <- transitivity( gt )
 
     measures <- rbind( measures,
-                      data.frame( commit = time,
+                      data.frame(commit = time,
                                  degree = mean( degree( gt )),
                                  betweenness = mean(betweenness),
+                                 closeness = mean(closeness(gt)),
+                                 distance = mean_distance(gt),
+                                 diameter= diameter(gt),
                                  network.size = vcount( gt ),
                                  connected.rate =  components(gt)$csize[[1]]/vcount( gt ),
                                  cc.size = components(gt)$csize[[1]],
