@@ -59,7 +59,7 @@ for my $commit ( reverse @these_revs ) {
 	create_update_edge_extensions( \%folders, $this_folder, $that_folder );
 	$commit_net->create_edge( source_index => $commit_nodes{$f}->{'index'},
 				  target_index => $commit_nodes{$files[$j]}->{'index'});
-	$edges .= "$f $files[$j] $time\n";
+	$edges .= "\"$f\" \"$files[$j]\" $time\n";
       }
     }
   }
