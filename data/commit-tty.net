@@ -1,0 +1,2383 @@
+*Vertices 354
+1 "Gemfile"
+2 "LICENSE.txt"
+3 "README.md"
+4 "Rakefile"
+5 "lib/tty.rb"
+6 "lib/tty/version.rb"
+7 "spec/spec_helper.rb"
+8 "tty.gemspec"
+9 ".gitignore"
+10 ".rspec"
+11 ".rvmrc"
+12 ".travis.yml"
+13 ".yardopts"
+14 "lib/tty/color.rb"
+15 "lib/tty/support/utils.rb"
+16 "lib/tty/table.rb"
+17 "lib/tty/table/renderer.rb"
+18 "lib/tty/table/renderer/basic.rb"
+19 "lib/tty/table/renderer/color.rb"
+20 "lib/tty/table/renderer/unicode.rb"
+21 "spec/tty/color_spec.rb"
+22 "spec/tty/table/each_spec.rb"
+23 "spec/tty/table/renderer/basic_spec.rb"
+24 "spec/tty/table/renderer_spec.rb"
+25 "spec/tty/table/table_spec.rb"
+26 "lib/tty/support/delegatable.rb"
+27 "spec/tty/support/delegatable_spec.rb"
+28 "spec/tty/support/fixtures/classes.rb"
+29 "spec/tty/table/initialize_spec.rb"
+30 "lib/tty/system.rb"
+31 "spec/tty/system/platform_spec.rb"
+32 "lib/tty/terminal.rb"
+33 "spec/tty/terminal/size_spec.rb"
+34 "spec/tty/table/eql_spec.rb"
+35 "spec/tty/table/access_spec.rb"
+36 "spec/tty/table/properties_spec.rb"
+37 "lib/tty/support/conversion.rb"
+38 "spec/tty/support/conversion_spec.rb"
+39 "lib/tty/table/error.rb"
+40 "lib/tty/table/validatable.rb"
+41 "spec/tty/table/validatable_spec.rb"
+42 "spec/tty/table/empty_spec.rb"
+43 "lib/tty/table/operation/alignment_set.rb"
+44 "spec/tty/table/operation/alignment_set/align_rows_spec.rb"
+45 "spec/tty/table/operation/alignment_set/each_spec.rb"
+46 "spec/tty/table/operation/alignment_set/new_spec.rb"
+47 "spec/tty/table/operation/alignment_set/to_ary_spec.rb"
+48 "spec/tty/table/options_spec.rb"
+49 "lib/tty/support/coercion.rb"
+50 "spec/tty/support/coercion_spec.rb"
+51 "spec/tty/table/operation/alignment/format_spec.rb"
+52 "spec/tty/table/operation/alignment/new_spec.rb"
+53 "lib/tty/table/operation/alignment.rb"
+54 "tasks/metrics/cane.rake"
+55 "tasks/metrics/flog.rake"
+56 "tasks/metrics/reek.rake"
+57 "lib/tty/support/equatable.rb"
+58 "spec/tty/support/equatable_spec.rb"
+59 "spec/tty/table/renderer/basic/alignment_spec.rb"
+60 "spec/tty/table/renderer/basic/extract_column_widths_spec.rb"
+61 "spec/tty/table/renderer/basic/new_spec.rb"
+62 "spec/tty/table/renderer/basic/render_spec.rb"
+63 "lib/tty/table/operation/truncation.rb"
+64 "spec/tty/table/operation/truncation/truncate_spec.rb"
+65 "lib/tty/table/operation.rb"
+66 "lib/tty/table/operation/wrapped.rb"
+67 "spec/tty/table/operation/wrapped/wrap_spec.rb"
+68 "lib/tty/vector.rb"
+69 "spec/tty/vector/new_spec.rb"
+70 "lib/tty/table/column_set.rb"
+71 "spec/tty/table/column_set/extract_widths_spec.rb"
+72 "lib/tty/table/border.rb"
+73 "spec/tty/table/border/new_spec.rb"
+74 "lib/tty/table/border/unicode.rb"
+75 "spec/tty/table/border/unicode/rendering_spec.rb"
+76 "lib/tty/table/border/ascii.rb"
+77 "spec/tty/table/border/ascii/rendering_spec.rb"
+78 "lib/tty/support/unicode.rb"
+79 "spec/tty/table/renderer/pick_renderer_spec.rb"
+80 "lib/tty/table/border/null.rb"
+81 "spec/tty/table/border/null/rendering_spec.rb"
+82 "lib/tty/table/renderer/ascii.rb"
+83 "spec/tty/table/to_s_spec.rb"
+84 "lib/tty/shell.rb"
+85 "lib/tty/shell/question.rb"
+86 "spec/tty/shell/question/initialize_spec.rb"
+87 "spec/tty/color/code_spec.rb"
+88 "spec/tty/color/remove_spec.rb"
+89 "spec/tty/color/set_spec.rb"
+90 "lib/tty/terminal/color.rb"
+91 "spec/tty/terminal/color/code_spec.rb"
+92 "spec/tty/terminal/color/remove_spec.rb"
+93 "spec/tty/terminal/color/set_spec.rb"
+94 "spec/tty/terminal/color_spec.rb"
+95 "spec/tty/terminal/home_spec.rb"
+96 "spec/tty/shell/ask_spec.rb"
+97 "spec/tty/shell/say_spec.rb"
+98 "spec/tty/shell/print_table_spec.rb"
+99 "lib/tty/shell/question/validation.rb"
+100 "spec/tty/shell/question/validation/coerce_spec.rb"
+101 "spec/tty/shell/question/validation/valid_value_spec.rb"
+102 "lib/tty/shell/question/modifier.rb"
+103 "spec/tty/shell/question/modifier/apply_to_spec.rb"
+104 "spec/tty/shell/question/modifier/letter_case_spec.rb"
+105 "spec/tty/shell/question/modifier/whitespace_spec.rb"
+106 "lib/tty/shell/statement.rb"
+107 "spec/tty/shell/statement/initialize_spec.rb"
+108 "spec/tty/shell/error_spec.rb"
+109 "spec/tty/shell/warn_spec.rb"
+110 "lib/tty/shell/reader.rb"
+111 "spec/tty/shell/reader/getc_spec.rb"
+112 "lib/tty/terminal/echo.rb"
+113 "spec/tty/terminal/echo_spec.rb"
+114 "spec/tty/shell/question/read_password_spec.rb"
+115 "spec/tty/shell/question/read_multiple_spec.rb"
+116 "spec/tty/shell/question/default_spec.rb"
+117 "spec/tty/shell/question/modify_spec.rb"
+118 "spec/tty/shell/question/validate_spec.rb"
+119 "spec/tty/shell/question/character_spec.rb"
+120 "spec/tty/shell/question/read_char_spec.rb"
+121 "spec/tty/shell/question/read_date_spec.rb"
+122 "spec/tty/shell/question/valid_spec.rb"
+123 "spec/tty/shell/question/argument_spec.rb"
+124 "spec/tty/shell/question/read_bool_spec.rb"
+125 "spec/tty/shell/question/read_email_spec.rb"
+126 "spec/tty/shell/question/read_number_spec.rb"
+127 "spec/tty/shell/question/read_string_spec.rb"
+128 "lib/tty/text/wrapping.rb"
+129 "spec/tty/text/wrapping/initialize_spec.rb"
+130 "spec/tty/text/wrapping/wrap_spec.rb"
+131 "lib/tty/text.rb"
+132 "spec/tty/text/wrap_spec.rb"
+133 "lib/tty/text/truncation.rb"
+134 "spec/tty/text/truncation/initialize_spec.rb"
+135 "spec/tty/text/truncation/truncate_spec.rb"
+136 "spec/tty/text/truncate_spec.rb"
+137 "lib/tty/shell/response.rb"
+138 "lib/tty/shell/response/boolean.rb"
+139 "lib/tty/coercer.rb"
+140 "lib/tty/coercer/range.rb"
+141 "spec/tty/coercer/range/coerce_spec.rb"
+142 "spec/tty/shell/question/in_spec.rb"
+143 "spec/tty/shell/response/read_email_spec.rb"
+144 "spec/tty/shell/response/read_range_spec.rb"
+145 "lib/tty/coercer/float.rb"
+146 "lib/tty/coercer/integer.rb"
+147 "spec/tty/coercer/float/coerce_spec.rb"
+148 "spec/tty/coercer/integer/coerce_spec.rb"
+149 "benchmarks/shell.rb"
+150 "benchmarks/table.rb"
+151 "lib/tty/terminal/home.rb"
+152 "lib/tty/coercer/boolean.rb"
+153 "spec/tty/coercer/boolean/coerce_spec.rb"
+154 "spec/tty/table/renders_with_spec.rb"
+155 "lib/tty/shell/response_delegation.rb"
+156 "spec/tty/table/validatable/validate_options_spec.rb"
+157 "lib/tty/table/orientation.rb"
+158 "lib/tty/table/orientation/horizontal.rb"
+159 "lib/tty/table/orientation/vertical.rb"
+160 "spec/tty/table/orientation_spec.rb"
+161 "spec/tty/table/rotate_spec.rb"
+162 "lib/tty/table/border_dsl.rb"
+163 "spec/tty/table/border_spec.rb"
+164 "lib/tty/table/border_options.rb"
+165 "spec/tty/table/border/options/from_spec.rb"
+166 "spec/tty/table/border/options/new_spec.rb"
+167 "spec/tty/table/renderer/basic/separator_spec.rb"
+168 "spec/tty/table/border/style_spec.rb"
+169 "lib/tty/system/which.rb"
+170 "spec/tty/system/which_spec.rb"
+171 "spec/tty/table/each_with_index_spec.rb"
+172 "lib/tty/table/header.rb"
+173 "spec/tty/table/header/call_spec.rb"
+174 "spec/tty/table/header/new_spec.rb"
+175 "spec/tty/table/header/to_ary_spec.rb"
+176 "lib/tty/table/row.rb"
+177 "spec/tty/table/row/new_spec.rb"
+178 "spec/tty/table/row/to_ary_spec.rb"
+179 "spec/tty/table/row/data_spec.rb"
+180 "spec/tty/table/row/call_spec.rb"
+181 "spec/tty/table/row/equality_spec.rb"
+182 "spec/tty/table/row/access_spec.rb"
+183 "spec/tty/table/header_spec.rb"
+184 "lib/tty/logger.rb"
+185 "spec/tty/logger/new_spec.rb"
+186 "spec/tty/logger/valid_level_spec.rb"
+187 "lib/tty/table/field.rb"
+188 "spec/tty/table/field/equality_spec.rb"
+189 "spec/tty/table/field/new_spec.rb"
+190 "spec/tty/table/field/width_spec.rb"
+191 "spec/tty/table/add_row_spec.rb"
+192 "lib/tty/table/operations.rb"
+193 "spec/tty/table/operations/new_spec.rb"
+194 "spec/tty/table/header/set_spec.rb"
+195 "spec/tty/table/operation/truncation/call_spec.rb"
+196 "spec/tty/table/operation/wrapped/call_spec.rb"
+197 "index.html"
+198 "assets/app-6bcb8c1351f3a897df752d9ee6310d7b.css"
+199 "assets/app-84b2914162b2abe1c35880d5135a4c5b.js"
+200 "assets/fonts/Varela-Regular-webfont-aac94f52b379237acf15437d76323434.svg"
+201 "jekyll/update/2013/05/06/welcome-to-jekyll.html"
+202 "assets/app-02fb4a5f2df083e2cdb0074d754a6f3c.css"
+203 "assets/app-4bf733f6344727eaa342b5556a18cb19.css"
+204 "assets/app-0de72c2ec87266cea9aaa0678fc0f2d1.js"
+205 "assets/app-b8b4574551606256cff11037bb228a92.css"
+206 "assets/app-2519903b8031e33c10bc38321246cb1b.css"
+207 "assets/app-97c4437cc96c578e8c4d5cc1a6c8f9ef.js"
+208 "lib/tty/text/distance.rb"
+209 "spec/tty/text/distance/distance_spec.rb"
+210 "spec/tty/text/distance/initialize_spec.rb"
+211 "spec/tty/text/distance_spec.rb"
+212 "spec/tty/shell/suggest_spec.rb"
+213 "lib/tty/shell/suggestion.rb"
+214 "lib/tty/plugins/plugin.rb"
+215 "spec/tty/plugins/plugin/load_spec.rb"
+216 "spec/tty/plugins/plugin/new_spec.rb"
+217 "lib/tty/plugins.rb"
+218 "spec/tty/plugins/find_spec.rb"
+219 "spec/tty/plugins/load_spec.rb"
+220 "spec/tty/system/which/which_spec.rb"
+221 "lib/tty/terminal/pager/basic.rb"
+222 "spec/tty/terminal/pager/basic/page_spec.rb"
+223 "lib/tty/terminal/pager/system.rb"
+224 "spec/tty/terminal/pager/system/page_spec.rb"
+225 "lib/tty/terminal/pager.rb"
+226 "spec/tty/terminal/pager/available_spec.rb"
+227 "spec/tty/terminal/pager/executables_spec.rb"
+228 "spec/tty/terminal/pager/page_spec.rb"
+229 "spec/tty/terminal/page_spec.rb"
+230 "assets/app-65f5f2b51c61a439d2ce1dcd3bb4658a.css"
+231 "assets/app-7c700352e95bab64fcf10c605d15d03d.js"
+232 "assets/fonts/OpenSans-Light-webfont-fe4877f33bc13358bae2145f111b5a00.svg"
+233 "plugins/index.html"
+234 "usage/index.html"
+235 "usage/table-border/index.html"
+236 "usage/table-creation/index.html"
+237 "usage/table-alignment/index.html"
+238 "usage/table-filter/index.html"
+239 "usage/table-style/index.html"
+240 "lib/tty/system/editor.rb"
+241 "spec/tty/system/editor/build_spec.rb"
+242 "spec/tty/system/editor/invoke_spec.rb"
+243 "spec/tty/system/editor/open_spec.rb"
+244 "spec/tty/system/editor/available_spec.rb"
+245 "spec/tty/system/editor/command_spec.rb"
+246 "spec/tty/system/editor/executables_spec.rb"
+247 "spec/tty/terminal/pager/command_spec.rb"
+248 "spec/tty/table/column_set/total_width_spec.rb"
+249 "spec/tty/table/renderer/ascii/render_spec.rb"
+250 "spec/tty/table/renderer/ascii/separator_spec.rb"
+251 "spec/tty/table/renderer/unicode/render_spec.rb"
+252 "spec/tty/table/renderer/unicode/separator_spec.rb"
+253 "spec/tty/table/renderer/basic/options_spec.rb"
+254 "spec/tty/table/render_with_spec.rb"
+255 "spec/tty/table/renderer/select_spec.rb"
+256 "spec/tty/table/row/each_spec.rb"
+257 "spec/tty/table/data_spec.rb"
+258 "lib/tty/table/operation/filter.rb"
+259 "spec/tty/table/operation/filter/call_spec.rb"
+260 "spec/tty/table/renderer/basic/filter_spec.rb"
+261 "spec/tty/table/operation/alignment_set/call_spec.rb"
+262 "spec/tty/table/renderer/basic/truncation_spec.rb"
+263 "lib/tty/table/operation/escape.rb"
+264 "spec/tty/table/operation/escape/call_spec.rb"
+265 "spec/tty/table/row/height_spec.rb"
+266 "spec/tty/table/header/height_spec.rb"
+267 "spec/tty/table/field/length_spec.rb"
+268 "spec/tty/table/field/lines_spec.rb"
+269 "spec/tty/table/renderer/basic/multiline_content_spec.rb"
+270 "spec/tty/table/filter_spec.rb"
+271 "lib/tty/table/border/row_line.rb"
+272 "lib/tty/table/transformation.rb"
+273 "spec/tty/table/transformation/extract_tuples_spec.rb"
+274 "spec/tty/table/renderer/basic/wrapping_spec.rb"
+275 "spec/tty/table/render_spec.rb"
+276 "spec/tty/table/column_set/widths_from_spec.rb"
+277 "spec/tty/table/renderer/render_spec.rb"
+278 "spec/tty/table/renderer/basic/indentation_spec.rb"
+279 "spec/tty/table/renderer/ascii/indentation_spec.rb"
+280 "spec/tty/table/renderer/unicode/indentation_spec.rb"
+281 "lib/tty/table/indentation.rb"
+282 "spec/tty/table/indentation/insert_indent_spec.rb"
+283 "lib/tty/table/columns.rb"
+284 "spec/tty/table/columns/enforce_spec.rb"
+285 "spec/tty/table/columns/widths_spec.rb"
+286 "spec/tty/table/renderer/basic/resizing_spec.rb"
+287 "spec/tty/table/renderer/ascii/resizing_spec.rb"
+288 "spec/tty/table/renderer/basic/coloring_spec.rb"
+289 "lib/tty/table/padder.rb"
+290 "spec/tty/table/padder/parse_spec.rb"
+291 "lib/tty/table/operation/padding.rb"
+292 "spec/tty/table/padding_spec.rb"
+293 "spec/tty/table/renderer/ascii/padding_spec.rb"
+294 "spec/tty/table/renderer/basic/padding_spec.rb"
+295 "spec/tty/table/renderer/unicode/padding_spec.rb"
+296 "spec/tty/logger/log_spec.rb"
+297 ".ruby-gemset"
+298 ".ruby-version"
+299 "tasks/console.rake"
+300 "tasks/coverage.rake"
+301 "tasks/metrics/heckle.rake"
+302 "tasks/spec.rake"
+303 "spec/tty/tty_spec.rb"
+304 "spec/tty/shell/response/read_spec.rb"
+305 "spec/tty/table/border_options/new_spec.rb"
+306 "spec/tty/table/border_options/update_spec.rb"
+307 "spec/tty/table/padder/to_s_spec.rb"
+308 "spec/tty/table/renderer/border_spec.rb"
+309 "spec/tty/table/renderer/style_spec.rb"
+310 "spec/tty/shell/response/read_bool_spec.rb"
+311 "spec/tty/shell/response/read_char_spec.rb"
+312 "spec/tty/shell/response/read_date_spec.rb"
+313 "spec/tty/shell/response/read_multiple_spec.rb"
+314 "spec/tty/shell/response/read_number_spec.rb"
+315 "spec/tty/shell/response/read_string_spec.rb"
+316 "CHANGELOG.md"
+317 "lib/tty/conversion.rb"
+318 "lib/tty/conversion/converter/array.rb"
+319 "lib/tty/conversion/converter/boolean.rb"
+320 "lib/tty/conversion/converter/float.rb"
+321 "lib/tty/conversion/converter/integer.rb"
+322 "lib/tty/conversion/converter/range.rb"
+323 "spec/tty/conversion/converter/array/convert_spec.rb"
+324 "spec/tty/conversion/converter/boolean/convert_spec.rb"
+325 "spec/tty/conversion/converter/float/convert_spec.rb"
+326 "spec/tty/conversion/converter/integer/convert_spec.rb"
+327 "spec/tty/conversion/converter/range/convert_spec.rb"
+328 "assets/app-c78a5c917cdceb04e8a8fc4837c6e221.css"
+329 "usage/progress_bars/index.html"
+330 "usage/tables/index.html"
+331 "lib/tty/terminal/raw.rb"
+332 "lib/tty/shell/distance.rb"
+333 "spec/tty/shell/distance/distance_spec.rb"
+334 "spec/tty/shell/distance/initialize_spec.rb"
+335 "assets/app-b7291540db0a4f42bce0ffcaf08706ca.css"
+336 "assets/app-6671fe394774d2180f1ac7785e4176c8.css"
+337 "assets/app-668a0b5984a576cba9dbc295eacd1d8c.js"
+338 "assets/app-b096ec5d274271e6d623ddbabba4efd4.css"
+339 "assets/app-28f1d22eabb3da52aacaf643b97bc8d6.js"
+340 "assets/app-ac1a078bbae3695aaadd2b9e0e76becc.css"
+341 "CODE_OF_CONDUCT.md"
+342 "appveyor.yml"
+343 "assets/.sprockets-manifest-9590dfcda8bb1627825b3e0aeab807e7.json"
+344 "assets/app.css"
+345 "assets/font-awesome/fontawesome-webfont.svg"
+346 "gems/index.html"
+347 ".sprockets-manifest-428db9f03cbc8663b020bba0a4218626.json"
+348 "app.css"
+349 "assets/.sprockets-manifest-9c90d4807b7377faf586b0547a421508.json"
+350 "assets/.sprockets-manifest-8d65dbdf7718adf665d1224ab71304d2.json"
+351 "assets/.sprockets-manifest-3d8fe2e7857f8786f681e513babfd0d3.json"
+352 "assets/.sprockets-manifest-82affccc7ba689e630c165a8fa98fece.json"
+353 "spec/fixtures/foo-0.0.1.gemspec"
+354 "assets/.sprockets-manifest-267b24281d89bfffa9698916d5978fdb.json"
+*arcs
+1 2 1
+1 3 1
+1 4 1
+1 5 1
+1 6 1
+1 7 1
+1 8 1
+2 3 1
+2 4 1
+2 5 1
+2 6 1
+2 7 1
+2 8 1
+3 4 1
+3 5 1
+3 6 1
+3 7 1
+3 8 1
+4 5 1
+4 6 1
+4 7 1
+4 8 1
+5 6 1
+5 7 1
+5 8 1
+6 7 1
+6 8 1
+7 8 1
+9 10 1
+9 11 1
+9 12 1
+9 13 1
+10 11 1
+10 12 1
+10 13 1
+11 12 1
+11 13 1
+12 13 1
+14 15 1
+14 16 1
+14 17 1
+14 18 1
+14 19 1
+14 20 1
+14 21 1
+14 22 1
+14 23 1
+14 24 1
+14 25 1
+15 16 1
+15 17 1
+15 18 1
+15 19 1
+15 20 1
+15 21 1
+15 22 1
+15 23 1
+15 24 1
+15 25 1
+16 17 1
+16 18 1
+16 19 1
+16 20 1
+16 21 1
+16 22 1
+16 23 1
+16 24 1
+16 25 1
+17 18 1
+17 19 1
+17 20 1
+17 21 1
+17 22 1
+17 23 1
+17 24 1
+17 25 1
+18 19 1
+18 20 1
+18 21 1
+18 22 1
+18 23 1
+18 24 1
+18 25 1
+19 20 1
+19 21 1
+19 22 1
+19 23 1
+19 24 1
+19 25 1
+20 21 1
+20 22 1
+20 23 1
+20 24 1
+20 25 1
+21 22 1
+21 23 1
+21 24 1
+21 25 1
+22 23 1
+22 24 1
+22 25 1
+23 24 1
+23 25 1
+24 25 1
+26 15 1
+26 27 1
+26 28 1
+15 27 1
+15 28 1
+27 28 1
+5 16 1
+5 17 1
+5 23 1
+5 24 1
+16 17 1
+16 23 1
+16 24 1
+17 23 1
+17 24 1
+23 24 1
+29 25 1
+5 30 1
+5 31 1
+30 31 1
+32 33 1
+18 23 1
+16 17 1
+16 23 1
+16 25 1
+17 23 1
+17 25 1
+23 25 1
+16 34 1
+16 35 1
+16 36 1
+27 36 1
+27 33 1
+36 33 1
+14 17 1
+14 32 1
+17 32 1
+16 29 1
+5 37 1
+5 38 1
+37 38 1
+5 39 1
+16 40 1
+16 41 1
+40 41 1
+16 17 1
+16 29 1
+16 23 1
+29 23 1
+16 42 1
+5 43 1
+5 44 1
+5 45 1
+5 46 1
+5 47 1
+43 44 1
+43 45 1
+43 46 1
+43 47 1
+44 45 1
+44 46 1
+44 47 1
+45 46 1
+45 47 1
+46 47 1
+18 23 1
+5 49 1
+5 50 1
+49 50 1
+5 51 1
+5 52 1
+51 52 1
+43 46 1
+16 35 1
+53 43 1
+53 51 1
+43 51 1
+18 23 1
+4 54 1
+4 55 1
+4 56 1
+54 55 1
+54 56 1
+55 56 1
+19 20 1
+16 18 1
+16 48 1
+18 48 1
+16 29 1
+57 58 1
+5 16 1
+5 34 1
+5 48 1
+16 34 1
+16 48 1
+34 48 1
+16 43 1
+16 18 1
+16 59 1
+16 60 1
+16 61 1
+16 62 1
+16 23 1
+43 18 1
+43 59 1
+43 60 1
+43 61 1
+43 62 1
+43 23 1
+18 59 1
+18 60 1
+18 61 1
+18 62 1
+18 23 1
+59 60 1
+59 61 1
+59 62 1
+59 23 1
+60 61 1
+60 62 1
+60 23 1
+61 62 1
+61 23 1
+62 23 1
+43 44 1
+5 63 1
+5 64 1
+63 64 1
+53 63 1
+5 65 1
+5 63 1
+5 66 1
+5 67 1
+63 66 1
+63 67 1
+66 67 1
+5 68 1
+5 69 1
+68 69 1
+16 53 1
+16 43 1
+16 46 1
+53 43 1
+53 46 1
+43 46 1
+5 70 1
+5 71 1
+70 71 1
+16 36 1
+5 72 1
+5 73 1
+72 73 1
+5 74 1
+5 75 1
+74 75 1
+5 76 1
+5 77 1
+76 77 1
+5 78 1
+63 66 1
+72 74 1
+72 77 1
+72 75 1
+74 77 1
+74 75 1
+77 75 1
+78 72 1
+3 57 1
+72 74 1
+17 79 1
+5 80 1
+5 81 1
+80 81 1
+72 77 1
+72 75 1
+77 75 1
+18 62 1
+82 20 1
+43 44 1
+81 62 1
+81 83 1
+62 83 1
+5 85 1
+5 86 1
+85 86 1
+85 86 1
+14 87 1
+14 88 1
+14 89 1
+87 88 1
+87 89 1
+88 89 1
+5 32 1
+5 90 1
+5 24 1
+5 91 1
+5 92 1
+5 93 1
+32 90 1
+32 24 1
+32 91 1
+32 92 1
+32 93 1
+90 24 1
+90 91 1
+90 92 1
+90 93 1
+24 91 1
+24 92 1
+24 93 1
+91 92 1
+91 93 1
+92 93 1
+3 94 1
+85 86 1
+32 95 1
+85 86 1
+84 96 1
+84 97 1
+84 98 1
+85 86 1
+84 85 1
+85 86 1
+99 100 1
+99 101 1
+100 101 1
+5 85 1
+5 102 1
+5 103 1
+5 104 1
+5 105 1
+102 103 1
+102 104 1
+102 105 1
+103 104 1
+103 105 1
+104 105 1
+85 86 1
+3 84 1
+5 106 1
+5 107 1
+106 107 1
+84 108 1
+84 109 1
+108 109 1
+84 85 1
+84 86 1
+85 86 1
+85 16 1
+5 110 1
+5 111 1
+110 111 1
+5 112 1
+5 113 1
+112 113 1
+85 86 1
+85 105 1
+85 114 1
+86 105 1
+86 114 1
+105 114 1
+85 114 1
+85 115 1
+116 117 1
+116 118 1
+117 118 1
+85 119 1
+85 120 1
+85 121 1
+85 122 1
+123 124 1
+123 125 1
+123 126 1
+123 127 1
+124 125 1
+124 126 1
+124 127 1
+125 126 1
+125 127 1
+126 127 1
+84 85 1
+84 86 1
+85 86 1
+90 92 1
+5 128 1
+5 129 1
+5 130 1
+128 129 1
+128 130 1
+129 130 1
+131 132 1
+128 132 1
+128 129 1
+128 130 1
+132 129 1
+132 130 1
+129 130 1
+5 133 1
+5 134 1
+5 135 1
+133 134 1
+133 135 1
+134 135 1
+131 136 1
+128 130 1
+5 85 1
+5 137 1
+85 137 1
+5 137 1
+5 138 1
+137 138 1
+72 73 1
+76 74 1
+5 139 1
+5 140 1
+5 141 1
+139 140 1
+139 141 1
+140 141 1
+85 142 1
+137 119 1
+137 116 1
+137 143 1
+119 116 1
+119 143 1
+116 143 1
+85 137 1
+85 144 1
+137 144 1
+138 133 1
+140 141 1
+5 145 1
+5 146 1
+5 147 1
+5 148 1
+145 146 1
+145 147 1
+145 148 1
+146 147 1
+146 148 1
+147 148 1
+16 35 1
+16 39 1
+149 150 1
+149 8 1
+150 8 1
+85 137 1
+5 32 1
+5 151 1
+32 151 1
+5 152 1
+5 153 1
+152 153 1
+5 137 1
+84 85 1
+84 96 1
+85 96 1
+16 40 1
+16 48 1
+40 48 1
+18 20 1
+16 17 1
+16 82 1
+16 154 1
+16 83 1
+17 82 1
+17 154 1
+17 83 1
+82 154 1
+82 83 1
+154 83 1
+72 154 1
+5 155 1
+3 16 1
+3 29 1
+16 29 1
+40 156 1
+5 157 1
+5 158 1
+5 159 1
+157 158 1
+157 159 1
+158 159 1
+16 160 1
+16 161 1
+160 161 1
+16 158 1
+16 159 1
+158 159 1
+5 72 1
+76 74 1
+76 154 1
+74 154 1
+80 81 1
+72 73 1
+16 163 1
+5 164 1
+5 165 1
+5 166 1
+164 165 1
+164 166 1
+165 166 1
+164 165 1
+16 81 1
+16 163 1
+81 163 1
+16 163 1
+72 18 1
+72 81 1
+18 81 1
+72 80 1
+72 18 1
+72 167 1
+80 18 1
+80 167 1
+18 167 1
+16 163 1
+72 168 1
+72 76 1
+72 80 1
+72 74 1
+72 162 1
+72 18 1
+72 81 1
+72 163 1
+72 154 1
+76 80 1
+76 74 1
+76 162 1
+76 18 1
+76 81 1
+76 163 1
+76 154 1
+80 74 1
+80 162 1
+80 18 1
+80 81 1
+80 163 1
+80 154 1
+74 162 1
+74 18 1
+74 81 1
+74 163 1
+74 154 1
+162 18 1
+162 81 1
+162 163 1
+162 154 1
+18 81 1
+18 163 1
+18 154 1
+81 163 1
+81 154 1
+163 154 1
+162 167 1
+5 169 1
+5 170 1
+169 170 1
+30 31 1
+16 171 1
+5 172 1
+5 173 1
+5 174 1
+5 175 1
+172 173 1
+172 174 1
+172 175 1
+173 174 1
+173 175 1
+174 175 1
+5 176 1
+5 177 1
+176 177 1
+176 182 1
+176 180 1
+176 177 1
+182 180 1
+182 177 1
+180 177 1
+172 173 1
+176 179 1
+16 161 1
+16 35 1
+5 184 1
+5 185 1
+5 186 1
+184 185 1
+184 186 1
+185 186 1
+17 154 1
+16 18 1
+16 48 1
+18 48 1
+16 172 1
+16 176 1
+172 176 1
+5 187 1
+5 188 1
+5 189 1
+5 190 1
+187 188 1
+187 189 1
+187 190 1
+188 189 1
+188 190 1
+189 190 1
+176 179 1
+176 181 1
+176 177 1
+179 181 1
+179 177 1
+181 177 1
+5 192 1
+5 193 1
+192 193 1
+43 192 1
+43 18 1
+192 18 1
+172 194 1
+43 59 1
+133 135 1
+63 195 1
+43 176 1
+66 196 1
+3 198 1
+3 199 1
+3 200 1
+3 197 1
+3 201 1
+198 199 1
+198 200 1
+198 197 1
+198 201 1
+199 200 1
+199 197 1
+199 201 1
+200 197 1
+200 201 1
+197 201 1
+202 197 1
+202 201 1
+197 201 1
+203 197 1
+203 201 1
+197 201 1
+57 188 1
+204 205 1
+204 197 1
+204 201 1
+205 197 1
+205 201 1
+197 201 1
+206 207 1
+206 197 1
+206 201 1
+207 197 1
+207 201 1
+197 201 1
+5 131 1
+5 208 1
+5 209 1
+5 210 1
+5 211 1
+5 135 1
+131 208 1
+131 209 1
+131 210 1
+131 211 1
+131 135 1
+208 209 1
+208 210 1
+208 211 1
+208 135 1
+209 210 1
+209 211 1
+209 135 1
+210 211 1
+210 135 1
+211 135 1
+84 212 1
+5 84 1
+5 213 1
+5 212 1
+84 213 1
+84 212 1
+213 212 1
+214 215 1
+214 216 1
+215 216 1
+5 217 1
+5 218 1
+5 219 1
+217 218 1
+217 219 1
+218 219 1
+169 220 1
+30 170 1
+30 31 1
+5 221 1
+5 222 1
+221 222 1
+5 223 1
+5 224 1
+223 224 1
+225 226 1
+225 227 1
+225 228 1
+226 227 1
+226 228 1
+227 228 1
+5 32 1
+5 229 1
+32 229 1
+230 231 1
+230 232 1
+230 197 1
+230 201 1
+230 233 1
+230 234 1
+230 235 1
+230 236 1
+231 232 1
+231 197 1
+231 201 1
+231 233 1
+231 234 1
+231 235 1
+231 236 1
+232 197 1
+232 201 1
+232 233 1
+232 234 1
+232 235 1
+232 236 1
+197 201 1
+197 233 1
+197 234 1
+197 235 1
+197 236 1
+201 233 1
+201 234 1
+201 235 1
+201 236 1
+233 234 1
+233 235 1
+233 236 1
+234 235 1
+234 236 1
+235 236 1
+197 201 1
+197 233 1
+197 234 1
+197 237 1
+197 235 1
+197 236 1
+197 238 1
+197 239 1
+201 233 1
+201 234 1
+201 237 1
+201 235 1
+201 236 1
+201 238 1
+201 239 1
+233 234 1
+233 237 1
+233 235 1
+233 236 1
+233 238 1
+233 239 1
+234 237 1
+234 235 1
+234 236 1
+234 238 1
+234 239 1
+237 235 1
+237 236 1
+237 238 1
+237 239 1
+235 236 1
+235 238 1
+235 239 1
+236 238 1
+236 239 1
+238 239 1
+5 240 1
+5 241 1
+5 242 1
+5 243 1
+240 241 1
+240 242 1
+240 243 1
+241 242 1
+241 243 1
+242 243 1
+241 242 1
+240 244 1
+240 241 1
+240 245 1
+240 246 1
+240 243 1
+244 241 1
+244 245 1
+244 246 1
+244 243 1
+241 245 1
+241 246 1
+241 243 1
+245 246 1
+245 243 1
+246 243 1
+225 226 1
+225 247 1
+226 247 1
+30 31 1
+70 71 1
+70 248 1
+71 248 1
+17 79 1
+17 24 1
+79 24 1
+18 59 1
+18 60 1
+18 61 1
+18 62 1
+18 167 1
+59 60 1
+59 61 1
+59 62 1
+59 167 1
+60 61 1
+60 62 1
+60 167 1
+61 62 1
+61 167 1
+62 167 1
+82 249 1
+82 250 1
+249 250 1
+20 251 1
+20 252 1
+251 252 1
+16 168 1
+16 163 1
+16 48 1
+16 160 1
+16 36 1
+16 254 1
+16 83 1
+168 163 1
+168 48 1
+168 160 1
+168 36 1
+168 254 1
+168 83 1
+163 48 1
+163 160 1
+163 36 1
+163 254 1
+163 83 1
+48 160 1
+48 36 1
+48 254 1
+48 83 1
+160 36 1
+160 254 1
+160 83 1
+36 254 1
+36 83 1
+254 83 1
+17 255 1
+16 17 1
+16 18 1
+17 18 1
+16 24 1
+176 256 1
+16 171 1
+72 187 1
+16 257 1
+16 22 1
+16 29 1
+16 160 1
+16 161 1
+257 22 1
+257 29 1
+257 160 1
+257 161 1
+22 29 1
+22 160 1
+22 161 1
+29 160 1
+29 161 1
+160 161 1
+5 258 1
+5 259 1
+258 259 1
+192 193 1
+43 44 1
+43 261 1
+192 193 1
+70 71 1
+70 248 1
+71 248 1
+63 195 1
+63 64 1
+195 64 1
+18 262 1
+66 196 1
+66 67 1
+196 67 1
+5 263 1
+5 264 1
+263 264 1
+176 180 1
+172 173 1
+16 24 1
+176 265 1
+172 266 1
+187 267 1
+187 268 1
+267 268 1
+70 71 1
+70 248 1
+71 248 1
+72 80 1
+72 77 1
+72 81 1
+72 75 1
+80 77 1
+80 81 1
+80 75 1
+77 81 1
+77 75 1
+81 75 1
+18 269 1
+18 270 1
+72 77 1
+72 81 1
+72 75 1
+77 81 1
+77 75 1
+81 75 1
+5 72 1
+5 271 1
+72 271 1
+5 272 1
+5 273 1
+272 273 1
+18 274 1
+16 18 1
+16 168 1
+16 163 1
+16 48 1
+16 250 1
+16 253 1
+16 167 1
+16 252 1
+18 168 1
+18 163 1
+18 48 1
+18 250 1
+18 253 1
+18 167 1
+18 252 1
+168 163 1
+168 48 1
+168 250 1
+168 253 1
+168 167 1
+168 252 1
+163 48 1
+163 250 1
+163 253 1
+163 167 1
+163 252 1
+48 250 1
+48 253 1
+48 167 1
+48 252 1
+250 253 1
+250 167 1
+250 252 1
+253 167 1
+253 252 1
+167 252 1
+3 7 1
+219 38 1
+219 27 1
+219 58 1
+219 243 1
+219 170 1
+219 73 1
+219 156 1
+219 95 1
+219 228 1
+38 27 1
+38 58 1
+38 243 1
+38 170 1
+38 73 1
+38 156 1
+38 95 1
+38 228 1
+27 58 1
+27 243 1
+27 170 1
+27 73 1
+27 156 1
+27 95 1
+27 228 1
+58 243 1
+58 170 1
+58 73 1
+58 156 1
+58 95 1
+58 228 1
+243 170 1
+243 73 1
+243 156 1
+243 95 1
+243 228 1
+170 73 1
+170 156 1
+170 95 1
+170 228 1
+73 156 1
+73 95 1
+73 228 1
+156 95 1
+156 228 1
+95 228 1
+16 275 1
+16 254 1
+275 254 1
+162 192 1
+162 158 1
+162 90 1
+192 158 1
+192 90 1
+158 90 1
+70 71 1
+70 276 1
+71 276 1
+18 253 1
+137 123 1
+137 117 1
+137 143 1
+123 117 1
+123 143 1
+117 143 1
+16 24 1
+18 278 1
+5 281 1
+5 282 1
+281 282 1
+18 278 1
+5 283 1
+5 284 1
+5 285 1
+283 284 1
+283 285 1
+284 285 1
+16 160 1
+16 161 1
+160 161 1
+192 18 1
+192 193 1
+18 193 1
+283 286 1
+283 287 1
+283 286 1
+287 286 1
+283 284 1
+283 287 1
+283 286 1
+284 287 1
+284 286 1
+287 286 1
+283 284 1
+283 287 1
+283 286 1
+287 286 1
+133 135 1
+18 288 1
+187 77 1
+187 81 1
+77 81 1
+128 130 1
+5 289 1
+5 290 1
+289 290 1
+5 291 1
+289 292 1
+283 293 1
+283 294 1
+293 294 1
+128 130 1
+66 196 1
+66 67 1
+196 67 1
+18 293 1
+18 294 1
+18 295 1
+293 294 1
+293 295 1
+294 295 1
+289 290 1
+18 253 1
+258 291 1
+258 292 1
+291 292 1
+18 292 1
+184 296 1
+53 43 1
+297 298 1
+1 8 1
+1 4 1
+1 299 1
+1 300 1
+1 54 1
+1 55 1
+1 301 1
+1 56 1
+1 302 1
+4 299 1
+4 300 1
+4 54 1
+4 55 1
+4 301 1
+4 56 1
+4 302 1
+299 300 1
+299 54 1
+299 55 1
+299 301 1
+299 56 1
+299 302 1
+300 54 1
+300 55 1
+300 301 1
+300 56 1
+300 302 1
+54 55 1
+54 301 1
+54 56 1
+54 302 1
+55 301 1
+55 56 1
+55 302 1
+301 56 1
+301 302 1
+56 302 1
+213 212 1
+5 303 1
+110 111 1
+3 85 1
+3 119 1
+85 119 1
+137 304 1
+1 8 1
+296 185 1
+296 186 1
+185 186 1
+91 92 1
+91 93 1
+91 94 1
+92 93 1
+92 94 1
+93 94 1
+95 229 1
+95 33 1
+229 33 1
+226 247 1
+226 227 1
+226 228 1
+247 227 1
+247 228 1
+227 228 1
+211 136 1
+211 132 1
+136 132 1
+209 210 1
+134 135 1
+129 130 1
+31 170 1
+42 34 1
+42 183 1
+42 29 1
+34 183 1
+34 29 1
+183 29 1
+16 172 1
+173 266 1
+173 174 1
+173 194 1
+173 175 1
+266 174 1
+266 194 1
+266 175 1
+174 194 1
+174 175 1
+194 175 1
+188 267 1
+188 268 1
+188 189 1
+188 190 1
+267 268 1
+267 189 1
+267 190 1
+268 189 1
+268 190 1
+189 190 1
+284 285 1
+71 248 1
+71 276 1
+248 276 1
+281 282 1
+51 52 1
+43 261 1
+43 45 1
+43 46 1
+43 47 1
+261 45 1
+261 46 1
+261 47 1
+45 46 1
+45 47 1
+46 47 1
+263 264 1
+258 259 1
+63 195 1
+63 64 1
+195 64 1
+66 196 1
+66 67 1
+196 67 1
+157 158 1
+157 159 1
+158 159 1
+305 306 1
+72 73 1
+72 165 1
+72 166 1
+73 165 1
+73 166 1
+165 166 1
+76 80 1
+76 271 1
+76 74 1
+80 271 1
+80 74 1
+271 74 1
+77 81 1
+77 75 1
+81 75 1
+182 180 1
+182 179 1
+182 256 1
+182 181 1
+182 265 1
+182 177 1
+182 178 1
+180 179 1
+180 256 1
+180 181 1
+180 265 1
+180 177 1
+180 178 1
+179 256 1
+179 181 1
+179 265 1
+179 177 1
+179 178 1
+256 181 1
+256 265 1
+256 177 1
+256 178 1
+181 265 1
+181 177 1
+181 178 1
+265 177 1
+265 178 1
+177 178 1
+290 307 1
+156 41 1
+275 254 1
+275 255 1
+275 24 1
+254 255 1
+254 24 1
+255 24 1
+308 277 1
+308 309 1
+277 309 1
+59 288 1
+59 60 1
+59 260 1
+59 278 1
+288 60 1
+288 260 1
+288 278 1
+60 260 1
+60 278 1
+260 278 1
+269 61 1
+269 253 1
+269 294 1
+269 62 1
+269 286 1
+269 167 1
+269 262 1
+269 274 1
+61 253 1
+61 294 1
+61 62 1
+61 286 1
+61 167 1
+61 262 1
+61 274 1
+253 294 1
+253 62 1
+253 286 1
+253 167 1
+253 262 1
+253 274 1
+294 62 1
+294 286 1
+294 167 1
+294 262 1
+294 274 1
+62 286 1
+62 167 1
+62 262 1
+62 274 1
+286 167 1
+286 262 1
+286 274 1
+167 262 1
+167 274 1
+262 274 1
+279 293 1
+279 249 1
+279 287 1
+279 250 1
+293 249 1
+293 287 1
+293 250 1
+249 287 1
+249 250 1
+287 250 1
+280 295 1
+280 251 1
+280 252 1
+295 251 1
+295 252 1
+251 252 1
+191 257 1
+191 22 1
+191 171 1
+191 270 1
+191 173 1
+191 48 1
+191 292 1
+191 36 1
+191 161 1
+191 83 1
+257 22 1
+257 171 1
+257 270 1
+257 173 1
+257 48 1
+257 292 1
+257 36 1
+257 161 1
+257 83 1
+22 171 1
+22 270 1
+22 173 1
+22 48 1
+22 292 1
+22 36 1
+22 161 1
+22 83 1
+171 270 1
+171 173 1
+171 48 1
+171 292 1
+171 36 1
+171 161 1
+171 83 1
+270 173 1
+270 48 1
+270 292 1
+270 36 1
+270 161 1
+270 83 1
+173 48 1
+173 292 1
+173 36 1
+173 161 1
+173 83 1
+48 292 1
+48 36 1
+48 161 1
+48 83 1
+292 36 1
+292 161 1
+292 83 1
+36 161 1
+36 83 1
+161 83 1
+153 141 1
+145 147 1
+146 148 1
+37 38 1
+26 27 1
+26 28 1
+27 28 1
+49 50 1
+218 219 1
+214 215 1
+214 216 1
+215 216 1
+96 108 1
+96 98 1
+96 97 1
+96 107 1
+96 109 1
+108 98 1
+108 97 1
+108 107 1
+108 109 1
+98 97 1
+98 107 1
+98 109 1
+97 107 1
+97 109 1
+107 109 1
+137 310 1
+137 311 1
+137 312 1
+137 143 1
+137 313 1
+137 314 1
+137 144 1
+137 304 1
+137 315 1
+310 311 1
+310 312 1
+310 143 1
+310 313 1
+310 314 1
+310 144 1
+310 304 1
+310 315 1
+311 312 1
+311 143 1
+311 313 1
+311 314 1
+311 144 1
+311 304 1
+311 315 1
+312 143 1
+312 313 1
+312 314 1
+312 144 1
+312 304 1
+312 315 1
+143 313 1
+143 314 1
+143 144 1
+143 304 1
+143 315 1
+313 314 1
+313 144 1
+313 304 1
+313 315 1
+314 144 1
+314 304 1
+314 315 1
+144 304 1
+144 315 1
+304 315 1
+102 103 1
+102 104 1
+102 105 1
+103 104 1
+103 105 1
+104 105 1
+99 100 1
+99 101 1
+100 101 1
+85 123 1
+85 119 1
+85 116 1
+85 142 1
+85 86 1
+85 117 1
+85 122 1
+85 118 1
+123 119 1
+123 116 1
+123 142 1
+123 86 1
+123 117 1
+123 122 1
+123 118 1
+119 116 1
+119 142 1
+119 86 1
+119 117 1
+119 122 1
+119 118 1
+116 142 1
+116 86 1
+116 117 1
+116 122 1
+116 118 1
+142 86 1
+142 117 1
+142 122 1
+142 118 1
+86 117 1
+86 122 1
+86 118 1
+117 122 1
+117 118 1
+122 118 1
+68 69 1
+244 241 1
+244 245 1
+244 246 1
+244 242 1
+244 243 1
+241 245 1
+241 246 1
+241 242 1
+241 243 1
+245 246 1
+245 242 1
+245 243 1
+246 242 1
+246 243 1
+242 243 1
+240 225 1
+5 139 1
+5 184 1
+5 72 1
+5 289 1
+139 184 1
+139 72 1
+139 289 1
+184 72 1
+184 289 1
+72 289 1
+317 318 1
+317 319 1
+317 320 1
+317 321 1
+317 322 1
+317 323 1
+317 324 1
+317 325 1
+317 326 1
+317 327 1
+318 319 1
+318 320 1
+318 321 1
+318 322 1
+318 323 1
+318 324 1
+318 325 1
+318 326 1
+318 327 1
+319 320 1
+319 321 1
+319 322 1
+319 323 1
+319 324 1
+319 325 1
+319 326 1
+319 327 1
+320 321 1
+320 322 1
+320 323 1
+320 324 1
+320 325 1
+320 326 1
+320 327 1
+321 322 1
+321 323 1
+321 324 1
+321 325 1
+321 326 1
+321 327 1
+322 323 1
+322 324 1
+322 325 1
+322 326 1
+322 327 1
+323 324 1
+323 325 1
+323 326 1
+323 327 1
+324 325 1
+324 326 1
+324 327 1
+325 326 1
+325 327 1
+326 327 1
+85 137 1
+85 16 1
+85 43 1
+85 68 1
+85 310 1
+137 16 1
+137 43 1
+137 68 1
+137 310 1
+16 43 1
+16 68 1
+16 310 1
+43 68 1
+43 310 1
+68 310 1
+3 328 1
+3 197 1
+3 201 1
+3 233 1
+3 234 1
+3 329 1
+3 330 1
+328 197 1
+328 201 1
+328 233 1
+328 234 1
+328 329 1
+328 330 1
+197 201 1
+197 233 1
+197 234 1
+197 329 1
+197 330 1
+201 233 1
+201 234 1
+201 329 1
+201 330 1
+233 234 1
+233 329 1
+233 330 1
+234 329 1
+234 330 1
+329 330 1
+197 233 1
+5 8 1
+106 108 1
+106 107 1
+108 107 1
+133 128 1
+72 271 1
+72 254 1
+72 288 1
+271 254 1
+271 288 1
+254 288 1
+32 94 1
+32 33 1
+94 33 1
+108 97 1
+108 109 1
+97 109 1
+275 254 1
+275 309 1
+275 94 1
+254 309 1
+254 94 1
+309 94 1
+5 8 1
+3 5 1
+3 85 1
+3 110 1
+3 137 1
+3 155 1
+3 32 1
+3 331 1
+5 85 1
+5 110 1
+5 137 1
+5 155 1
+5 32 1
+5 331 1
+85 110 1
+85 137 1
+85 155 1
+85 32 1
+85 331 1
+110 137 1
+110 155 1
+110 32 1
+110 331 1
+137 155 1
+137 32 1
+137 331 1
+155 32 1
+155 331 1
+32 331 1
+310 144 1
+16 43 1
+68 69 1
+5 16 1
+5 63 1
+5 66 1
+5 131 1
+16 63 1
+16 66 1
+16 131 1
+63 66 1
+63 131 1
+66 131 1
+5 43 1
+172 176 1
+72 162 1
+5 8 1
+5 332 1
+5 213 1
+5 333 1
+5 334 1
+332 213 1
+332 333 1
+332 334 1
+213 333 1
+213 334 1
+333 334 1
+335 197 1
+335 201 1
+335 233 1
+335 234 1
+335 329 1
+335 330 1
+197 201 1
+197 233 1
+197 234 1
+197 329 1
+197 330 1
+201 233 1
+201 234 1
+201 329 1
+201 330 1
+233 234 1
+233 329 1
+233 330 1
+234 329 1
+234 330 1
+329 330 1
+5 8 1
+30 112 1
+30 225 1
+30 331 1
+30 228 1
+112 225 1
+112 331 1
+112 228 1
+225 331 1
+225 228 1
+331 228 1
+5 32 1
+5 30 1
+5 8 1
+30 8 1
+137 310 1
+137 143 1
+310 143 1
+3 336 1
+3 197 1
+3 201 1
+3 233 1
+3 234 1
+3 329 1
+3 330 1
+336 197 1
+336 201 1
+336 233 1
+336 234 1
+336 329 1
+336 330 1
+197 201 1
+197 233 1
+197 234 1
+197 329 1
+197 330 1
+201 233 1
+201 234 1
+201 329 1
+201 330 1
+233 234 1
+233 329 1
+233 330 1
+234 329 1
+234 330 1
+329 330 1
+96 108 1
+96 98 1
+96 123 1
+96 122 1
+96 304 1
+96 97 1
+96 212 1
+96 109 1
+96 243 1
+96 69 1
+108 98 1
+108 123 1
+108 122 1
+108 304 1
+108 97 1
+108 212 1
+108 109 1
+108 243 1
+108 69 1
+98 123 1
+98 122 1
+98 304 1
+98 97 1
+98 212 1
+98 109 1
+98 243 1
+98 69 1
+123 122 1
+123 304 1
+123 97 1
+123 212 1
+123 109 1
+123 243 1
+123 69 1
+122 304 1
+122 97 1
+122 212 1
+122 109 1
+122 243 1
+122 69 1
+304 97 1
+304 212 1
+304 109 1
+304 243 1
+304 69 1
+97 212 1
+97 109 1
+97 243 1
+97 69 1
+212 109 1
+212 243 1
+212 69 1
+109 243 1
+109 69 1
+243 69 1
+137 313 1
+214 215 1
+151 95 1
+32 151 1
+32 95 1
+151 95 1
+5 68 1
+5 8 1
+68 8 1
+337 338 1
+337 197 1
+337 201 1
+337 233 1
+337 234 1
+337 329 1
+337 330 1
+338 197 1
+338 201 1
+338 233 1
+338 234 1
+338 329 1
+338 330 1
+197 201 1
+197 233 1
+197 234 1
+197 329 1
+197 330 1
+201 233 1
+201 234 1
+201 329 1
+201 330 1
+233 234 1
+233 329 1
+233 330 1
+234 329 1
+234 330 1
+329 330 1
+339 340 1
+339 197 1
+339 201 1
+339 233 1
+339 234 1
+339 329 1
+339 330 1
+340 197 1
+340 201 1
+340 233 1
+340 234 1
+340 329 1
+340 330 1
+197 201 1
+197 233 1
+197 234 1
+197 329 1
+197 330 1
+201 233 1
+201 234 1
+201 329 1
+201 330 1
+233 234 1
+233 329 1
+233 330 1
+234 329 1
+234 330 1
+329 330 1
+3 197 1
+3 201 1
+3 233 1
+3 234 1
+3 329 1
+3 330 1
+197 201 1
+197 233 1
+197 234 1
+197 329 1
+197 330 1
+201 233 1
+201 234 1
+201 329 1
+201 330 1
+233 234 1
+233 329 1
+233 330 1
+234 329 1
+234 330 1
+329 330 1
+5 240 1
+341 3 1
+343 344 1
+343 345 1
+343 346 1
+343 197 1
+343 201 1
+344 345 1
+344 346 1
+344 197 1
+344 201 1
+345 346 1
+345 197 1
+345 201 1
+346 197 1
+346 201 1
+197 201 1
+346 197 1
+346 201 1
+197 201 1
+347 348 1
+347 346 1
+347 197 1
+347 201 1
+348 346 1
+348 197 1
+348 201 1
+346 197 1
+346 201 1
+197 201 1
+349 344 1
+349 346 1
+349 197 1
+349 201 1
+344 346 1
+344 197 1
+344 201 1
+346 197 1
+346 201 1
+197 201 1
+350 344 1
+350 346 1
+350 197 1
+350 201 1
+344 346 1
+344 197 1
+344 201 1
+346 197 1
+346 201 1
+197 201 1
+351 344 1
+351 346 1
+351 197 1
+351 201 1
+344 346 1
+344 197 1
+344 201 1
+346 197 1
+346 201 1
+197 201 1
+352 344 1
+352 197 1
+344 197 1
+5 8 1
+5 303 1
+214 215 1
+214 216 1
+215 216 1
+353 7 1
+217 218 1
+217 219 1
+218 219 1
+354 344 1
+354 346 1
+354 197 1
+354 201 1
+344 346 1
+344 197 1
+344 201 1
+346 197 1
+346 201 1
+197 201 1

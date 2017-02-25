@@ -1,0 +1,37 @@
+nodedef> name,label
+n1,"jekyll"
+n2,"usage"
+n3,"plugins"
+n4,"benchmarks"
+n5,"assets"
+n6,"gems"
+n7,"/"
+n8,"spec"
+n9,"lib"
+n10,"tasks"
+edgedef> node1,node2,directed
+n1,n2,true
+n1,n3,true
+n3,n2,true
+n4,n4,true
+n5,n2,true
+n5,n3,true
+n5,n1,true
+n5,n6,true
+n5,n5,true
+n6,n1,true
+n7,n8,true
+n7,n2,true
+n7,n9,true
+n7,n10,true
+n7,n1,true
+n7,n3,true
+n7,n5,true
+n7,n6,true
+n7,n7,true
+n7,n4,true
+n2,n2,true
+n8,n8,true
+n9,n9,true
+n9,n8,true
+n10,n10,true
