@@ -12,7 +12,7 @@ require(igraph)
  
 #load the edges with time stamp
 #there are three columns in edges: id1,id2,time
-edges <- read.table(paste0(args[1], ".csv"),header=T)
+edges <- read.table(paste0(args[1], ".csv"),header=T,quote="\"")
  
 #generate the full graph
 g <- graph.data.frame(edges,directed=F)
