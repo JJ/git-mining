@@ -954,6 +954,7 @@ n952,"test/command/1773.md"
 n953,"test/latex-reader.native"
 n954,"test/tables.latex"
 n955,"test/command/hspace.md"
+n956,"test/command/vars-and-metadata.md"
 edgedef> node1,node2,directed
 n1,n2,true
 n1,n3,true
@@ -65806,4 +65807,5 @@ n838,n510,true
 n838,n841,true
 n510,n841,true
 n36,n955,true
+n828,n865,true
 n828,n865,true
