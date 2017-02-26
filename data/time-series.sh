@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo ~/Code/forks/ack2,~/Code/forks/duckduckgo,~/Code/forks/nikto,~/Code/forks/RxJava,~/Code/forks/blade,~/Code/forks/nqp,~/Code/forks/ejabberd,~/Code/forks/kubernetes,~/Code/forks/CNTK,~/Code/forks/kong,~/Code/forks/vue,~/Code/forks/cucumber,~/Code/forks/Rex,~/Code/forks/language-perl6fe,~/Code/forks/clojurescript,~/Code/forks/BigDL,~/Code/forks/mojo,~/Code/forks/redash,~/Code/forks/webpack,~/Code/forks/Moose,~/Code/forks/nest-manager,~/Code/forks/docker,~/Code/forks/rakudo,~/Code/forks/alacritty,~/Code/forks/autorest,~/Code/forks/ggplot2,~/Code/forks/beehive,~/Code/forks/tensorflow,~/Code/forks/atom,~/Code/forks/tty,~/Code/forks/tpot,~/Code/forks/scalatra,~/Code/forks/mocha | xargs -n 1 -d , ../co-modification-time-series.pl

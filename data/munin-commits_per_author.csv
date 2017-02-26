@@ -1,0 +1,229 @@
+author,commits
+Steve Schnepp <steve.schnepp@pwkf.org>, 1711
+Nicolai Langfeldt <janl@redpill-linpro.com>, 794
+Jimmy Olsen <jo@redpill-linpro.com>, 657
+Matthew Boyle <mlb@decisionsoft.com>, 592
+Stig Sandbeck Mathisen <ssm@fnord.no>, 555
+Holger Levsen <holger@layer-acht.org>, 341
+Stig Sandbeck Mathisen <ssm@debian.org>, 283
+Kjell-Magne Øierud <kjellm@redpill-linpro.com>, 214
+Kenyon Ralph <kenyon@kenyonralph.com>, 197
+Quentin Stoeckel <chteuchteu@gmail.com>, 160
+Quentin S <chteuchteu@gmail.com>, 157
+Matthias Schmitz <matthias@sigxcpu.org>, 141
+Daniel Black <daniel.black@openquery.com>, 134
+Lupe Christoph <lupe@lupe-christoph.de>, 132
+Tom Feiner <feiner.tom@gmail.com>, 130
+Erik I. Bolsø <knan@redpill-linpro.com>, 111
+Diego Elio Pettenò <flameeyes@flameeyes.eu>, 95
+Dagfin Ilmari Mansåker <ilmari@ilmari.org>, 78
+Tore Anderson <tore@redpill-linpro.com>, 62
+Brian De Wolf <bldewolf@csupomona.edu>, 60
+Gabriele Pohl <contact@dipohl.de>, 59
+Bjørn Ruberg <bjorn@redpill-linpro.com>, 59
+Chen-Yu Tsai <wens@csie.org>, 51
+Magnus Hagander <magnus@hagander.net>, 47
+dipohl <contact@dipohl.de>, 44
+Automatic Commit <no-one@munin-monitoring.org>, 33
+Knut Haugen <knuthaug@gmail.com>, 24
+Jorne Kandziora <jorne@quarantainenet.nl>, 23
+Kristian Lyngstøl <kristian@redpill-linpro.com>, 17
+Tatjana Anderson <tatjana@redpill-linpro.com>, 17
+Kim B. Heino <b@bbbs.net>, 15
+Adrien "ze" Urban <spam@hagtheil.net>, 14
+Dave Shevett <shevett@pobox.com>, 14
+Ingvar Hagelund <ingvar@redpill-linpro.com>, 14
+Rune Nordbøe Skillingstad <rune@skillingstad.no>, 13
+Trygve Vea <tv@redpill-linpro.com>, 13
+Erik Inge Bolsø <knan@redpill-linpro.com>, 13
+Jose-Marcio Martins da Cruz <jmarcio@users.noreply.github.com>, 11
+Dmitry Marakasov <amdmi3@amdmi3.ru>, 8
+Marc Schütz <schuetzm@gmx.net>, 8
+M. Maraun <maraun@web.de>, 7
+Dan McGee <dan@archlinux.org>, 7
+absh <me@shapirus.net>, 7
+shapirus <me@shapirus.net>, 7
+Ulrik Haugen <qha@lysator.liu.se>, 7
+Nicolai Langfeldt <nicolai.langfeldt@broadnet.no>, 6
+Kjetil Torgrim Homme <kjetil.homme@redpill-linpro.com>, 6
+Gabor Szabo <gabor@szabgab.com>, 6
+Audun Ytterdal <audun@ytterdal.net>, 6
+Gabriele <gap@niva.dipohl.de>, 6
+Peter Palfrader <peter@palfrader.org>, 6
+Christian Loos <cloos@netcologne.de>, 5
+Quentin S. <chteuchteu@gmail.com>, 5
+Michiel Holtkamp <git@supermind.nl>, 5
+Harald Korneliussen <vintermann@gmail.com>, 5
+leeclemens <java@leeclemens.net>, 4
+intrigeri <intrigeri@debian.org>, 4
+y-ken <y.ken.studio@gmail.com>, 4
+Axel Huebl <axel.huebl@web.de>, 4
+Ferenc Wágner <wferi@niif.hu>, 4
+Darac Marjal <darac@darac.org.uk>, 4
+Jason Woods <devel@jasonwoods.me.uk>, 4
+Philipp Niemann <philipp.niemann@dimdi.de>, 4
+Tollef Fog Heen <tfheen@err.no>, 4
+ko-zu <causeless@gmail.com>, 4
+Harald Kraemer <hkraemer@goodgamestudios.com>, 4
+Lee Clemens <droid@lc-cs.com>, 4
+Trygve Vea <trygve.vea@redpill-linpro.com>, 3
+Gerald Turner <gturner@unzane.com>, 3
+Eero Häkkinen <Eero+github@xn--Hkkinen-5wa.fi>, 3
+Tim Besard <tim.besard@gmail.com>, 3
+Viktor Szépe <viktor@szepe.net>, 3
+Basil Upornikov <vupornikov@gmail.com>, 3
+Mark Meyer <ofosos@gmail.com>, 3
+mcarton <cartonmartin+git@gmail.com>, 3
+Mathieu Arnold <mat@mat.cc>, 3
+Tom Hendrikx <tom@whyscream.net>, 2
+Jens Holzkämper <holzi@woodfighter.de>, 2
+Nicolai Langfeldt <nicolai.langfeldt@ventelo.no>, 2
+Viljo Viitanen <viljo.viitanen@gmail.com>, 2
+Bill Thiede <git@xinu.tv>, 2
+Niall Donegan <niall@blacknight.com>, 2
+Christoph Biedl <debian.axhn@manchmal.in-ulm.de>, 2
+Mark H. Wood <mhwood@Ameritech.Net>, 2
+Artur Smęt <artur.smet@gmail.com>, 2
+Bram Schoenmakers <me@bramschoenmakers.nl>, 2
+Erik Inge Bolsø <knan-github@anduin.net>, 2
+Lars Thegler <lars@thegler.dk>, 2
+Ørjan Ommundsen <orjanom@gmail.com>, 2
+Lionel Sausin <ls@numerigraphe.com>, 2
+Klas Meder Boqvist <github.com@servern.info>, 2
+Andreas Maus <maus+debianbug@ypbind.de>, 2
+Alexander Shorin <kxepal@gmail.com>, 2
+Andreas Teuchert <teuchert@fg-networking.de>, 2
+Thorsten Gunkel <tgunkel-lists@tgunkel.de>, 2
+Kjetil Torgrim Homme <kjetilho@redpill-linpro.com>, 2
+Andrea Piccinelli <frasten@gmail.com>, 2
+elmuerte <github.com@elmuerte.com>, 2
+Sebastian Noack <sebastian.noack@gmail.com>, 2
+Vincas Dargis <vindrg@gmail.com>, 2
+Marcello Barnaba <vjt@openssl.it>, 2
+Stig Sandbeck Mathisen <ssm@redpill-linpro.com>, 2
+Ruslan Kabalin <r.kabalin@lancaster.ac.uk>, 2
+Axel Huebl <axel.huebl@plasma.ninja>, 2
+Hiroshi Shirosaki <h.shirosaki@gmail.com>, 2
+erpel <philipp@copythat.de>, 2
+driskell <devel@jasonwoods.me.uk>, 2
+Benjamin Pineau <ben.pineau@gmail.com>, 2
+ivanzolotuhin <ivanzolotuhin@gmail.com>, 2
+Gael <gael.lambert@enovance.com>, 2
+Igor Kolar <igor.kolar@gmail.com>, 1
+Andre Klärner <kandre@ak-online.be>, 1
+Veres Lajos <vlajos@gmail.com>, 1
+Joerg Jaspert <joerg@debian.org>, 1
+Békefi Gábor <gabor@bekefi.hu>, 1
+Arran Cudbard-Bell <a.cudbardb@freeradius.org>, 1
+Vlad K <vlad@acheronmedia.com>, 1
+Hiroaki Abe <hiroaki0404@gmail.com>, 1
+Alexander <Self-Perfection@users.noreply.github.com>, 1
+Lucas Holt <luke@foolishgames.com>, 1
+Claudius Herder <claudius@ambtec.de>, 1
+tbear2500 <tbear2500@gmail.com>, 1
+duritong <peter.meier+github@immerda.ch>, 1
+Kjetil Torgrim Homme <kjetilho@comm.ms.redpill-linpro.com>, 1
+Luke Koberstein <tolliandrus@gmail.com>, 1
+Matt West <mhwest13@gmail.com>, 1
+Jon Whiteman <jon@seniorblanco.com>, 1
+Peter Suschlik <peter@suschlik.de>, 1
+Iván Montoro <tilde-imt@users.noreply.github.com>, 1
+Claudius <claudius_herder@ambtec.de>, 1
+rantal <rantal5030@gmail.com>, 1
+Joar Jegleim <joar.jegleim@gmail.com>, 1
+Adrien Chardon <adrienchardon@mailoo.org>, 1
+Anders Ossowicki <aowi@novozymes.com>, 1
+Julien Pivotto <roidelapluie@inuits.eu>, 1
+Justin Muller <justin.muller@acm.org>, 1
+^Rooker <rooker@das-werkstatt.com>, 1
+Cyril Bouthors <cyril.bouthors@isvtec.com>, 1
+Stefan Rubner <stefan@whocares.de>, 1
+Servilio Afre Puentes <afrepues@mcmaster.ca>, 1
+cdep.illabout <cdep.illabout@gmail.com>, 1
+Peter J. Holzer <hjp-debian@hjp.at>, 1
+Nicolas Dandrimont <nicolas.dandrimont@crans.org>, 1
+diSabler <dsy@dsy.name>, 1
+Martin Bureau <m.bureau@enovance.com>, 1
+Picnic Pete <peter.lock@openquery.com.au>, 1
+Alan <amesbury@users.noreply.github.com>, 1
+IWAI, Masaharu <iwaim.sub@gmail.com>, 1
+Jeremy Olexa <darkside@gentoo.org>, 1
+runesk <rune.skillingstad@ntnu.no>, 1
+Malte S. Stretz <stretz@silpion.de>, 1
+Kirill Bychkov <kirby@barton.linklevel.loc>, 1
+gregor herrmann <gregoa@debian.org>, 1
+Kieran Clancy <github@kieranclancy.com>, 1
+pneuly <pneuly@gmail.com>, 1
+Lars Kruse <devel@sumpfralle.de>, 1
+Hans van Kranenburg <hans.van.kranenburg@mendix.com>, 1
+Robert Rothenberg <robrwo+github@gmail.com>, 1
+Klaus S. Madsen <ksm@jobindex.dk>, 1
+Tobias Kappé <tkappe@deleidscheflesch.nl>, 1
+Camilo Sperberg <me@unreal4u.com>, 1
+nii_kenichi <cm10030@gmail.com>, 1
+lr1980 <cappu1980+github@gmail.com>, 1
+Taylor Jasko <taylor@taylorjasko.com>, 1
+Daniel Kahn Gillmor <dkg@fifthhorseman.net>, 1
+Lasse Karstensen <lasse@hostedmunin.com>, 1
+Helmut Grohne <helmut@subdivi.de>, 1
+Martin Sucha <martin.sucha@infinario.com>, 1
+Daniel Dehennin <daniel.dehennin@baby-gnu.org>, 1
+Rado Rovny <rado@rovny.net>, 1
+Yu Watanabe <watanabe.yu+github@gmail.com>, 1
+Christian Ruppert <idl0r@gentoo.org>, 1
+bra-fsn <bra@fsn.hu>, 1
+Mikhail Lukyanchenko <ml@akabos.com>, 1
+Juho Juopperi <jkj@kapsi.fi>, 1
+Brian De Wolf <git@bldewolf.com>, 1
+Bjørn Forsman <bjorn.forsman@gmail.com>, 1
+Robert <rspier@pobox.com>, 1
+InsanePrawn <Insane.Prawny@gmail.com>, 1
+Dongsik Park <luzluna@gmail.com>, 1
+Vincent Danjean <vdanjean.ml@free.fr>, 1
+Tomohiro Hosaka <bokutin@bokut.in>, 1
+Nanotech DESU <nanotechdesu@gmail.com>, 1
+Philipp Toelke <pt@philipptoelke.de>, 1
+ivan <github-ivan@ivancso.net>, 1
+Daniel Reichelt <hacking@nachtgeist.net>, 1
+Sergey Ivanov <seriv@cs.umd.edu>, 1
+Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>, 1
+Simon Whittaker <simon@swbh.net>, 1
+Christoph Biedl <munin.isfu@manchmal.in-ulm.de>, 1
+Herwin Weststrate <herwin@quarantainenet.nl>, 1
+Ken-ichi Mito <mitty@mitty.jp>, 1
+Steven Lewis <steven@stevenlewis.co.uk>, 1
+Charles RAPENNE <charles.rapenne@gmail.com>, 1
+tsaavik <github@hellspark.com>, 1
+Ed Szynaka <szynaka@localnet.com>, 1
+ssm@fnord.no <ssm@fnord.no>, 1
+Vlad K <github@acheronmedia.com>, 1
+Robin H. Johnson <robbat2@orbis-terrarum.net>, 1
+Erik Sjölund <erik.sjolund@gmail.com>, 1
+sstj <stevie.trujillo@gmail.com>, 1
+Steinar H. Gunderson <sesse@google.com>, 1
+cernst1980 <cernst1980@gmail.com>, 1
+Kazunori Kojima <dk@at-dk.info>, 1
+Anton Tolchanov <me@knyar.net>, 1
+Jimmy Shen <shendepu@hotmail.com>, 1
+Michael Scherer <misc@zarb.org>, 1
+Данило Глинський (Danylo Hlynskyi) <abcz2.uprola@gmail.com>, 1
+AJ Ferrick <ajferrick@gmail.com>, 1
+Michal Cihar <nijel@debian.org>, 1
+nusenu <nusenu@openmailbox.org>, 1
+Vadim Zeitlin <vadim@zeitlins.org>, 1
+D. Johnson <fenris02@fedoraproject.org>, 1
+Rob Speed <speed.rob@gmail.com>, 1
+Rob Shortt <rob@podcore.com>, 1
+cgzones <cgzones@googlemail.com>, 1
+Gabor Szabo <szabgab@gmail.com>, 1
+Brian Prodoehl <bprodoehl@connectify.me>, 1
+Jean-Louis Dupond <jean-louis@dupond.be>, 1
+Adam Woodbeck <awoodbeck@genisyscu.org>, 1
+Devin Howard <devin@callysto.com>, 1
+Mrten <bugzilla@ii.nl>, 1
+chteuchteu <chteuchteu@gmail.com>, 1
+Johann Bauer <bauerj@bauerj.eu>, 1
+Michael 'PoempelFox' Meier <git@mulder.franken.de>, 1
+Serge Smetana <smetana@pluron.com>, 1
+chapmajs <glitch@glitchwrks.com>, 1
+IvAnZ <ivanzolotuhin@gmail.com>, 1
