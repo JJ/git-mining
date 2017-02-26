@@ -2,11 +2,11 @@
 
 =head1 NAME
 
-get-author-files.pl - download social graph stats from a github repo
+co-modification-time-series.pl - from the temporal edges list, obtain the number of files changed
 
 =head1 SYNOPSIS
 
-Creates a series of network files from a repository by extracting information from commits. 
+Creates a single-column file with the number of files changed in every commit. 
 
 =head1 SEE ALSO
 
