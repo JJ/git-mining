@@ -1,0 +1,14 @@
+nodedef> name,label
+n1,"program"
+n2,"devdocs"
+n3,"documentation"
+n4,"/"
+edgedef> node1,node2,directed
+n1,n1,true
+n2,n2,true
+n2,n3,true
+n3,n1,true
+n3,n3,true
+n4,n1,true
+n4,n2,true
+n4,n3,true
