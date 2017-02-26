@@ -1,0 +1,328 @@
+author,commits
+Elizabeth Mattijsen <liz@dijkmat.nl>, 4861
+jnthn <jnthn@jnthn.net>, 3402
+Moritz Lenz <moritz@faui2k3.org>, 3108
+Jonathan Worthington <jnthn@jnthn.net>, 2894
+pmichaud <pmichaud@pobox.com>, 1786
+Tobias Leich <email@froggs.de>, 1018
+TimToady <larry@wall.org>, 855
+Patrick R. Michaud <pmichaud@pobox.com>, 787
+Solomon Foster <colomon@gmail.com>, 677
+Stefan Seifert <nine@detonation.org>, 564
+Zoffix Znet <cpan@zoffix.com>, 529
+Carl Masak <cmasak@gmail.com>, 429
+Will "Coke" Coleda <will@coleda.com>, 374
+Timo Paulssen <timonator@perpetuum-immobile.de>, 369
+Rob Hoelz <rob@hoelz.ro>, 355
+lizmat <liz@dijkmat.nl>, 275
+Tadeusz Sośnierz <tadzikes@gmail.com>, 239
+Jerry Gay a.k.a. particle <Jerry.Gay@gmail.com>, 232
+Pepe Schwarz <peschwa@gmail.com>, 229
+Moritz A Lenz <moritz@faui2k3.org>, 229
+Mouq <alexmoquin@gmail.com>, 195
+Jonathan Scott Duff <duff@pobox.com>, 187
+Coke <will@coleda.com>, 141
+Zoffix Znet <zoffixznet@users.noreply.github.com>, 130
+Stephen Weeks <tene@allalone.org>, 98
+chromatic <chromatic@wgz.org>, 79
+usev6 <use_v6@aglaz.de>, 75
+Samantha McVey <samantham@posteo.net>, 72
+skids <bri@abrij.org>, 72
+Pawel Murias <pawelmurias@gmail.com>, 68
+ShimmerFairy <rnddim@gmail.com>, 67
+Daniel Green <ddgreen@gmail.com>, 65
+kboga <kristofbogaerts@gmail.com>, 56
+Kodi Arfer <hippo@Thoth.(none)>, 56
+Larry Wall <larry@wall.org>, 56
+Bernhard Schmalhofer <Bernhard.Schmalhofer@gmx.de>, 52
+Arne Skjærholt <arnsholt@gmail.com>, 49
+niner <nine@detonation.org>, 49
+Brent Laabs <bslaabs@gmail.com>, 45
+David Romano <unobe@cpan.org>, 44
+Donald Hunter <donald@sealgair.com>, 42
+Geoffrey Broadwell <gjb@sonic.net>, 41
+Stefan O'Rear <stefanor@cox.net>, 38
+Mark Glines a.k.a. Infinoid <mark@glines.org>, 38
+Nick Logan <nlogan@gmail.com>, 38
+Steve Mynott <steve.mynott@gmail.com>, 36
+Kyle Hasselbacher <kyleha@gmail.com>, 35
+Patrick Abi Salloum <patrick.abisalloum@gmail.com>, 34
+Moritz Lenz <mlenz@wvbh074.physik.uni-wuerzburg.de>, 34
+Geoffrey Broadwell <geoff@broadwell.org>, 33
+Martin Berends <mberends@autoexec.demon.nl>, 30
+Cory Spencer <cspencer@sprocket.org>, 29
+grondilu <grondilu@yahoo.fr>, 25
+Geoffrey Broadwell <gjb@google.com>, 23
+Paul Cochrane <paul@liekut.de>, 23
+Andy Lester <andy@petdance.com>, 23
+Jonathan Stowe <jns+git@gellyfish.co.uk>, 21
+Martin Berends <github@autoexec.demon.nl>, 20
+Martin Berends <martin@meee.(none)>, 19
+timo <timonator@perpetuum-immobile.de>, 19
+Moritz Lenz <mlenz@noris.net>, 19
+Nick Logan <ugexe@cpan.org>, 17
+Paul Cochrane <paultcochrane@gmail.com>, 17
+James E Keenan (Jim) <jkeenan@cpan.org>, 16
+Leopold Toetsch <lt@toetsch.at>, 15
+ab5tract <john.haltiwanger@gmail.com>, 15
+Arcterus <Arcterus@mail.com>, 15
+Will Coleda <will@coleda.com>, 15
+Salvador Ortiz <sog@msg.com.mx>, 15
+Christian Bartolomäus <use_v6@aglaz.de>, 15
+Donald Hunter <donaldh@cisco.com>, 14
+Jimmy Zhuo <zhuomingliang01@qq.com>, 14
+coke <will@coleda.com>, 14
+Brock Wilcox <awwaiid@thelackthereof.org>, 14
+Carl Mäsak <cmasak@gmail.com>, 13
+mberends <github@autoexec.demon.nl>, 13
+Kris Shannon <kris@shannon.id.au>, 13
+lue <rnddim@gmail.com>, 13
+Bruce Gray <bruce.gray@acm.org>, 13
+raydiak <raydiak@cyberuniverses.com>, 12
+Lucas Buchala <lucasbuchala@gmail.com>, 12
+Alexander Moquin <alexmoquin@gmail.com>, 12
+David Warring <david.warring@gmail.com>, 11
+Brad Gilbert <b2gills@gmail.com>, 11
+Leon Timmermans <fawaka@gmail.com>, 11
+JD Horelick <jdhore1@gmail.com>, 11
+cygx <cygx@cpan.org>, 11
+Audrey Tang <audreyt@audreyt.org>, 10
+sergot <filip@sergot.pl>, 10
+kboga <kristof@PCHOME.(none)>, 10
+LemonBoy <thatlemon@gmail.com>, 10
+smashz <smash@cpan.org>, 10
+Altai-man <altay-man@mail.ru>, 10
+Andrew Egeler <andrew@egeler.us>, 9
+Kamil Kułaga <teodozjan@users.noreply.github.com>, 9
+Michael Schroeder <mls@suse.de>, 9
+labster <bslaabs@gmail.com>, 9
+Brian Gernhardt <brian@gernhardtsoftware.com>, 9
+Felix Herrmann <felix@herrmann-koenigsberg.de>, 8
+Kyle Hasselbacher <kyle@livetext.com>, 8
+Sylvain Colinet <scolinet@gmail.com>, 8
+Allison Randal <allison@perl.org>, 8
+Julian Albo <julian.notfound@gmail.com>, 8
+Ronald Schmidt <ronaldxs@software-path.com>, 8
+MasterDuke17 <ddgreen@gmail.com>, 7
+Nick Wellnhofer <wellnhofer@aevum.de>, 7
+Martin Berends <martin@video64.autoexec.local>, 7
+dagurval <dagurval@pvv.ntnu.no>, 7
+unknown <Jonathan@.(none)>, 7
+JJ Merelo <jjmerelo@gmail.com>, 7
+Stéphane Payrard <cognominal@gmail.com>, 7
+Tom Browder <tom.browder@gmail.com>, 7
+Carlin <cb@viennan.net>, 7
+Anthony Parsons <flussence@gmail.com>, 7
+Brock Wilcox <bwilcox@optoro.com>, 6
+Douglas Jenkins <jenkinsd@ochin.org>, 6
+isBEKaml <nastavs@gmail.com>, 6
+Patrick R. Michaud <pmichaud@pmichaud.com>, 6
+Mark Shoulson <mark@kli.org>, 6
+peschwa <peschwa@gmail.com>, 6
+Arcterus <arcterus@mail.com>, 6
+LLFourn <lloyd.fourn@gmail.com>, 6
+Brent Laabs <blaabs@perceptyx.com>, 6
+Matthew Wilson <diakopter@gmail.com>, 5
+Nicholas Clark <nick@ccl4.org>, 5
+Nami-Doc <vendethiel@hotmail.fr>, 5
+snarkyboojum <snarkyboojum@gmail.com>, 5
+François Perrad <francois.perrad@gadz.org>, 5
+Chris Jepeway <jepeway@blasted-heath.com>, 5
+Matthew Walton <matthew@matthew-walton.co.uk>, 5
+colomon <colomon@gmail.com>, 5
+Jimmy Zhuo <zhuomingliang@yahoo.com.cn>, 5
+Alberto Manuel Brandao Simoes <ambs@cpan.org>, 5
+Gabor Szabo <szabgab@gmail.com>, 5
+MasterDuke17 <MasterDuke17@users.noreply.github.com>, 5
+Ahmad M. Zawawi <ahmad.zawawi@gmail.com>, 5
+Bahtiar `kalkin-` Gadimov <bahtiar@gadimov.de>, 5
+Salve J. Nilsen <sjn+gnurf@kaizendo.org>, 5
+Gerhard R <gerd.r.devel@googlemail.com>, 5
+Duke Leto <jonathan@leto.net>, 4
+L. Grondin <grondilu@yahoo.fr>, 4
+Marcus Ramberg <marcus@nordaaker.com>, 4
+Dave Rolsky <autarch@urth.org>, 4
+Jonathan Stowe <jns@gellyfish.co.uk>, 4
+Timothy Totten <2009@huri.net>, 4
+Jan-Olof Hendig <jan-olof.hendig@bredband.net>, 4
+Tomoki Aonuma <uasi@99cm.org>, 4
+Jeff Horwitz <jeff@smashing.org>, 4
+Vasily Chekalkin <bacek@bacek.com>, 4
+parrot user <parrot@parrot-desktop.(none)>, 4
+Christoph Otto a.k.a. cotto <christoph@mksig.org>, 4
+Vyacheslav Matjukhin <mmcleric@yandex-team.ru>, 4
+Timo Paulssen <timo@schmand.fritz.box>, 4
+Patrick R. Michaud <pmichaud@plum.(none)>, 4
+Fernando Brito <email@fernandobrito.com>, 3
+cpin <cpinfold@fastmail.fm>, 3
+quester <quester.pm@gmail.com>, 3
+Dagfinn Ilmari Mannsåker <ilmari@ilmari.org>, 3
+Matthew (lue) <rnddim@gmail.com>, 3
+Xliff <clifton.wood@gmail.com>, 3
+Juerd Waalboer <juerd@tnx.nl>, 3
+Jake Russo <madcap.russo@gmail.com>, 3
+Andrew Whitworth <wknight8111@gmail.com>, 3
+Dave Whipp <dwhipp@google.com>, 3
+Dan Kogai <dankogai+github@gmail.com>, 3
+0racle <joshuamy@gmail.com>, 3
+tony-o <tony.odell@xpertminds.net>, 3
+Mark Glines <mark@glines.org>, 3
+Jonathan Scott Duff <perlpilot@pobox.com>, 3
+patrickas <patrick.abisalloum@gmail.com>, 3
+Fitz Elliott <felliott@virginia.edu>, 3
+Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>, 3
+Andy Weidenbaum <archbaum@gmail.com>, 3
+Timothy Totten <2010@huri.net>, 3
+Patrick R. Michaud <rakudoperl@pmichaud.com>, 3
+Chris Dolan <chris@chrisdolan.net>, 3
+Tim Smith <tim.dolores@gmail.com>, 3
+Kevan Benson <kbenson@brinstar.netcrucial.com>, 2
+Francois Perrad <francois.perrad@gadz.org>, 2
+Panu Ervamaa <panu.ervamaa@frantic.com>, 2
+Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>, 2
+Tommy Stanton <tommystanton@gmail.com>, 2
+Florian Ragwitz <rafl@debianforum.de>, 2
+last.of.the.careless.men@gmail.com <last.of.the.careless.men@gmail.com>, 2
+Peter Lobsinger <plobsing@gmail.com>, 2
+Kevin Tew <tewk@tewk.com>, 2
+Mikhail Khorkov <m.s.khorkov@gmail.com>, 2
+Marton Papp <anteusz@freemail.hu>, 2
+Mike Francis <ungrim97@gmail.com>, 2
+git <cspencer@sprocket.org>, 2
+Nuno 'smash' Carvalho <mestre.smash@gmail.com>, 2
+neuron <vlmarek@volny.cz>, 2
+Klaas-Jan Stol a.k.a. kj[s]? <parrotcode@gmail.com>, 2
+Paweł Murias <pawelmurias@gmail.com>, 2
+Zohar Kelrich <lumimies@gmail.com>, 2
+particle <jerry.gay@gmail.com>, 2
+Cory Spencer <cspencer@sprocket-2.local>, 2
+Dominique Dumont <dod@debian.org>, 2
+Siddhant Saraf <siddhantsaraf@gmail.com>, 2
+Alexander Hartmaier <abraxxa@cpan.org>, 2
+Tadeusz “tadzik” Sośnierz <tadeusz.sosnierz@onet.pl>, 2
+Bruce Keeler <bruce@drangle.com>, 2
+William Orr <will@worrbase.com>, 2
+Jens Rehsack <sno@netbsd.org>, 2
+smls <smls75@gmail.com>, 2
+thundergnat <thundergnat@comcast.net>, 2
+Ricardo Signes <rjbs@cpan.org>, 2
+titsuki <titsuki@cpan.org>, 2
+Hongwen Qiu <qiuhongwen@gmail.com>, 2
+Reini Urban <rurban@x-ray.at>, 2
+Don Vito Perleone <vito.perleone+github@gmail.com>, 2
+Fernando Correa de Oliveira <fernandocorrea@gmail.com>, 2
+diakopter <diakopter@gmail.com>, 2
+Martin Berends <martin@dash.(none)>, 2
+Geoff Broadwell (japhb) <geoff@broadwell.org>, 2
+dakkar <dakkar@sardina.(none)>, 2
+faraco <skelic2@yandex.com>, 2
+Simon Cozens <simon@simon-cozens.org>, 2
+Sterling Hanenkamp <sterling@hanenkamp.com>, 2
+Geoffry Broadwell <geoff@broadwell.org>, 2
+Reini Urban <rurban@cpanel.net>, 2
+Andy Lester <andy@uniqua.petdance.com>, 2
+laben <labensigma@gmail.com>, 2
+Michael Stapelberg <michael@stapelberg.de>, 1
+Reini Urban <rurban@cpan.org>, 1
+raiph <raiph.mellor@gmail.com>, 1
+Bart Wiegmans <bartwiegmans@gmail.com>, 1
+Matt Oates <mattoates@gmail.com>, 1
+Amir E. Aharoni <amir.aharoni@mail.huji.ac.il>, 1
+Lanny Ripple <Lanny.Ripple@gmail.com>, 1
+Radek Slupik <rightfold@gmail.com>, 1
+Jarrod <gigantic.midget@gmail.com>, 1
+flussence <flussence@gmail.com>, 1
+bacek <bacek@illusion.dev.optusnet.com.au>, 1
+Nick Glencross <nick.glencross@gmail.com>, 1
+Stephane cognominal Payrard <cognominal@gmail.com>, 1
+Shoichi Kaji <skaji@cpan.org>, 1
+amire80 <amir.aharoni@mail.huji.ac.il>, 1
+Matt Diephouse <matt@diephouse.com>, 1
+Andrew Egeler <root+github@retupmoca.com>, 1
+dmaestro <dmaestro@users.noreply.github.com>, 1
+sue spence <virtuallysue@gmail.com>, 1
+Dagur Valberg Johannsson <dagurval@pvv.ntnu.no>, 1
+Brian Gernhardt <brian.gernhardt@mail.rit.edu>, 1
+Brian Gernhardt <benji@silverinsanity.com>, 1
+Bob Rogers <rogers-perl6@rgrjr.dyndns.org>, 1
+Rakudo Perl <rakudoperl@pmichaud.com>, 1
+cygx <cygx@users.noreply.github.com>, 1
+Edwin Steiner <edwin.steiner@gmx.net>, 1
+Carlin Bingham <carlin@theintersect.org>, 1
+Ingy dot Net <ingy@ingy.net>, 1
+Erik Johansen <perl6git@uniejo.dk>, 1
+Tomasz Konojacki <me@xenu.tk>, 1
+Вячеслав Матюхин <me@berekuk.ru>, 1
+Jan Ingvoldstad <jani+perl6-2010@ifi.uio.no>, 1
+Cuong Manh Le <cuong.manhle.vn@gmail.com>, 1
+okaoka <cookbook_000@yahoo.co.jp>, 1
+Shrivatsan <nastavs@gmail.com>, 1
+cpin <ctp@fastmail.co.uk>, 1
+Jonathan Worthington <jntn@jnthn.net>, 1
+markmont <markmont@markmont-dev.web.itd.umich.edu>, 1
+Paul Cochrane <paultcochrane@users.noreply.github.com>, 1
+Vladimir Marek <vlmarek@volny.cz>, 1
+Will Coleda <will.coleda@ge.com>, 1
+Timo Paulssen <timo@localhost.localdomain>, 1
+Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯 <daxim@cpan.org>, 1
+Daenyth <Daenyth+git@gmail.com>, 1
+Carlin <glassflag@users.noreply.github.com>, 1
+Radu Stoica <radu_cs85@yahoo.com>, 1
+Alex Elsayed <eternaleye@gmail.com>, 1
+Ujwal Reddy Malipeddi <ujwalic@gmail.com>, 1
+Martin Kjeldsen <martin@martinkjeldsen.dk>, 1
+Jonathan Leto <jonathan@leto.net>, 1
+Gianni Ceccarelli <dakkar@thenautilus.net>, 1
+John Harrison <ash@greaterthaninfinity.com>, 1
+rightfold <rightfold@gmail.com>, 1
+Mike Eve <ungrim97@gmail.com>, 1
+Lue <lue@twigil.drangle.com>, 1
+Filip Sergot <filip@sergot.pl>, 1
+Tyler Curtis <tyler.l.curtis@gmail.com>, 1
+Peter Gibbs <peter@emkel.co.za>, 1
+Christopher J. Madsen <perl@cjmweb.net>, 1
+GlitchMr <glitchmr@myopera.com>, 1
+Vladimir Lettiev <thecrux@gmail.com>, 1
+Ruslan Zakirov <ruz@bestpractical.com>, 1
+Gerhard R. <gerd.r.devel@googlemail.com>, 1
+Matt Kraai <kraai@ftbfs.org>, 1
+Christian Walde <walde.christian@googlemail.com>, 1
+Jeffrey Goff <jgoff@cpan.org>, 1
+Justin DeVuyst <justin@devuyst.com>, 1
+Lloyd Fournier <LLFourn@users.noreply.github.com>, 1
+Cosimo Streppone <cosimo@opera.com>, 1
+Salve J. Nilsen <sjn@cpan.org>, 1
+tomboy64 <tomboy64@sina.cn>, 1
+Chip Salzenberg <chip@pobox.com>, 1
+bspecht <bernhard@specht.net>, 1
+kristof <kristof@PCHOME.(none)>, 1
+Shlomi Fish <shlomif@iglu.org.il>, 1
+Kevan Benson <kentrak@gmail.com>, 1
+atrodo <atrodo@atrodo.org>, 1
+Tokuhiro Matsuno <tokuhirom@gmail.com>, 1
+Christoph Otto <christoph_git@mksig.org>, 1
+Geir Amdal <gam@grok.no>, 1
+Gerd Pokorra <pokorra@uni-siegen.de>, 1
+japhb <gjb@sonic.net>, 1
+vendethiel <vendethiel@hotmail.fr>, 1
+Bob Kuo <bob@celect.org>, 1
+Bruce Gray <bruce@bruce-grays-computer-2.local>, 1
+Erik Johansen <perl6-git@uniejo.dk>, 1
+Worthington@.(none) <Worthington@.(none)>, 1
+tcurtis <tyler.l.curtis@gmail.com>, 1
+Yun SangHo <foollbar@gmail.com>, 1
+martin <martin@localhost.localdomain>, 1
+cosmicnet <webmaster@cosmicperl.com>, 1
+seatek <seatek@gmail.com>, 1
+Moritz Lenz <mlenz@physik.uni-wuerzburg.de>, 1
+Dale Evans <dale.evans@mycanadapayday.com>, 1
+Ævar Arnfjörð Bjarmason <avarab@gmail.com>, 1
+Lue <rnddim@gmail.com>, 1
+Chris Dolan <chris@clotho.com>, 1
+Jesse Vincent <jesse@fsck.com>, 1
+Whiteknight <wknight8111@gmail.com>, 1
+Gregor N. Purdy <gregor@focusresearch.com>, 1
+Jaume Martí <jaume.martif@gmail.com>, 1
+root <root@atlas.clarku.edu>, 1
+Christoph Otto <christoph_github@mksig.org>, 1
+ronaldxs <ronaldxs@software-path.com>, 1

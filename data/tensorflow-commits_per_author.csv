@@ -1,0 +1,773 @@
+author,commits
+A. Unique TensorFlower <gardener@tensorflow.org>, 3680
+A. Unique TensorFlower <nobody@tensorflow.org>, 1340
+Vijay Vasudevan <vrv@google.com>, 926
+Illia Polosukhin <ilblackdragon@gmail.com>, 374
+Shanqing Cai <cais@google.com>, 364
+Benoit Steiner <benoit.steiner.goog@gmail.com>, 321
+Derek Murray <mrry@google.com>, 246
+Martin Wicke <wicke@google.com>, 230
+Gunhan Gulsoy <gunan@google.com>, 201
+Martin Wicke <martin.wicke@gmail.com>, 196
+gunan <gunan@google.com>, 176
+terrytangyuan <terrytangyuan@gmail.com>, 168
+Eugene Brevdo <ebrevdo@google.com>, 159
+Dan Smilkov <smilkov@google.com>, 130
+Geoffrey Irving <geoffreyi@google.com>, 125
+Josh Levenberg <josh11b@tensorflow.org>, 123
+Benoit Steiner <bsteiner@google.com>, 121
+Manjunath Kudlur <keveman@gmail.com>, 121
+Asim Shankar <ashankar@google.com>, 116
+Yuan Yu <yuanbyu@google.com>, 104
+Eugene Brevdo <ebrevdo@gmail.com>, 101
+Jonathan Hseu <jhseu@google.com>, 97
+Dan Mané <danmane@google.com>, 93
+Andrew Harp <andrewharp@google.com>, 93
+Mustafa Ispir <ispir@google.com>, 90
+Benoit Steiner <benoitsteiner@users.noreply.github.com>, 88
+Charles Nicholson <nicholsonc@google.com>, 86
+Patrick Nguyen <drpng@google.com>, 85
+caisq <cais@google.com>, 84
+Peter Hawkins <phawkins@google.com>, 81
+Dan Mané <danmane@gmail.com>, 75
+Zongheng Yang <zongheng@google.com>, 75
+Yuan (Terry) Tang <terrytangyuan@users.noreply.github.com>, 74
+Vincent Vanhoucke <vanhoucke@google.com>, 74
+Sukriti Ramesh <sukritiramesh@google.com>, 71
+Yifei Feng <fengyifei2026@gmail.com>, 70
+Pete Warden <petewarden@google.com>, 69
+Suharsh Sivakumar <suharshs@google.com>, 68
+Derek Murray <derek.murray@gmail.com>, 66
+Justine Tunney <jart@google.com>, 66
+Andrew Selle <aselle@google.com>, 65
+David G. Andersen <dga@google.com>, 62
+Nikhil Thorat <nsthorat@google.com>, 60
+Pete Warden <pete@petewarden.com>, 60
+Daniel W Mane <danmane@gmail.com>, 56
+Ian Langmore <langmore@google.com>, 55
+Yifei Feng <yifeif@google.com>, 55
+Rohan Jain <rohanj@google.com>, 52
+Xiaoqiang Zheng <zhengxq@google.com>, 51
+David Soergel <soergel@google.com>, 51
+Jan Prach <jendap@google.com>, 49
+Zongheng Yang <zongheng.y@gmail.com>, 47
+Andrew Harp <andrew.harp@gmail.com>, 47
+Renato Utsch <renatoutsch@google.com>, 45
+Sherry Moore <sherrym@google.com>, 42
+Yun Peng <pcloudy@google.com>, 40
+Dan Smilkov <dsmilkov@gmail.com>, 39
+Wenjian Huang <nextrush@163.com>, 38
+Joshua V. Dillon <jvdillon@google.com>, 37
+Jianwei Xie <xiejw@google.com>, 36
+Illia Polosukhin <ipolosukhin@google.com>, 35
+Olivia Nordquist <nolivia@google.com>, 34
+Dongjoon Hyun <dongjoon@apache.org>, 32
+Nathan Silberman <nsilberman@google.com>, 31
+Alexey Surkov <surkov@google.com>, 30
+drpngx <drpngx@users.noreply.github.com>, 30
+Rasmus Munk Larsen <rmlarsen@google.com>, 29
+Sergio Guadarrama <sguada@google.com>, 27
+Huazuo Gao <gaohuazuo@gmail.com>, 27
+guschmue <guschmue@microsoft.com>, 26
+Andrew Harp <andrewharp@users.noreply.github.com>, 25
+Kiril Gorovoy <kgorovoy@google.com>, 25
+Rohan Jain <rohan100jain@gmail.com>, 25
+Sam Abrahams <sjabraha@gmail.com>, 25
+luke iwanski <luke@codeplay.com>, 24
+Igor Babuschkin <igor@babuschk.in>, 24
+Wei Ho <weiho@google.com>, 24
+Siddharth Agrawal <siddharth.950@gmail.com>, 23
+Manjunath Kudlur <keveman@google.com>, 23
+Vinu Rajashekhar <vinuraja@google.com>, 21
+Justin Lebar <jlebar@google.com>, 21
+Lukasz Kaiser <lukaszkaiser@google.com>, 20
+terrytangyuan <terrytangyuan@Gmail.com>, 20
+Yuefeng Zhou <yuefengz@google.com>, 20
+Dandelion Mané <dandelion@google.com>, 19
+Mustafa Ispir <mustafa.ispir@gmail.com>, 19
+Rasmus Larsen <rmlarsen@google.com>, 17
+Jianmin Chen <goog.jmchen@gmail.com>, 17
+Jonathan Hseu <vomjom@vomjom.net>, 16
+NORTHAMERICA\vistepan <vistepan@microsoft.com>, 16
+Jan Prach <jendap@gmail.com>, 16
+Yaroslav Bulatov <yaroslavvb@gmail.com>, 16
+yifeif <fengyifei2026@gmail.com>, 15
+Vu Pham <phvu225@gmail.com>, 15
+luke <luke@codeplay.com>, 15
+Jingtian Peng <pengjingtian@huawei.com>, 14
+Yutaka Leon <yutaka.leon@gmail.com>, 14
+Johnny Lim <izeye@naver.com>, 14
+Skye Wanderman-Milne <skyewm@google.com>, 14
+zhengxq <zhengxq@google.com>, 13
+Brennan Saeta <saeta@google.com>, 13
+Jianmin Chen <jmchen@google.com>, 13
+Alexander Heinecke <alexander.heinecke@intel.com>, 13
+Geoffrey Irving <irving@naml.us>, 13
+Maciek Chociej <maciekc@google.com>, 12
+Lukasz Kaiser <lukaszkaiser@gmail.com>, 12
+Luke Iwanski <luke@codeplay.com>, 12
+amchercashin <amchercashin@gmail.com>, 12
+Fabrizio (Misto) Milo <mistobaan@gmail.com>, 12
+Yaroslav Bulatov <yaroslavvb@google.com>, 12
+Cassandra Xia <cassandrax@google.com>, 12
+Yutaka Leon <yleon@google.com>, 12
+panmari <smmuzi@gmail.com>, 12
+Phil Stahlfeld <philstahlfeld@google.com>, 11
+Neal Wu <wun@google.com>, 11
+Nikhil Thorat <nsthorat@gmail.com>, 11
+Fabrizio Milo <Mistobaan@users.noreply.github.com>, 11
+Adriano Carmezim <Carmezim.filho@gmail.com>, 11
+Daniel Mané <danmane@gmail.com>, 11
+zheng-xq <zhengxq@google.com>, 11
+Mark Heffernan <meheff@google.com>, 11
+Dr. Kashif Rasul <kashif.rasul@gmail.com>, 10
+Alexandre Passos <apassos@google.com>, 10
+Jeffrey A. Dean <jeff@google.com>, 10
+Eli Bendersky <eliben@google.com>, 10
+Robin Nabel <rnabel@google.com>, 10
+Xingdong Zuo <zuoxingdong@users.noreply.github.com>, 10
+David Majnemer <majnemer@google.com>, 10
+Jingtian Peng <pjt73651@gmail.com>, 10
+amcrae <admcrae@gatech.edu>, 10
+Yao Zhang <yaozhang@google.com>, 10
+Liangliang He <lliang.he@gmail.com>, 9
+Francois Chollet <fchollet@google.com>, 9
+Olivia Nordquist <nolivia@umich.edu>, 9
+A. Rosenberg Johansen <alexander@herhjemme.dk>, 9
+Zakaria Haque <zakaria@google.com>, 9
+Jingyue Wu <jingyue@google.com>, 9
+Fred Bertsch <fredbertsch@google.com>, 8
+Kenton Lee <kenton.ct.lee@gmail.com>, 8
+David Z. Chen <davidzchen@users.noreply.github.com>, 8
+Dan Becker <dansbecker@gmail.com>, 8
+RJ Ryan <rryan@alum.mit.edu>, 8
+zhongzyd <zhongzyd@qq.com>, 8
+James Wexler <james_wexler@yahoo.com>, 8
+xmbrst <westbrook@google.com>, 8
+tyfkda <tyfkda@users.noreply.github.com>, 8
+Yuxin Wu <ppwwyyxxc@gmail.com>, 7
+thuyenvn <vanthuyen@gmail.com>, 7
+raix852 <raix852@gmail.com>, 7
+Li Lao <llao@google.com>, 7
+Raphael Gontijo Lopes <raphaelgontijolopes@gmail.com>, 7
+RJ Ryan <rjryan@google.com>, 7
+Adria Puigdomenech <adriap@google.com>, 7
+Stephan Hoyer <shoyer@google.com>, 7
+Dan Ringwalt <ringwalt@google.com>, 7
+Ziming Dong <dzm1016397507@gmail.com>, 7
+Daniel Mané <danmane@google.com>, 7
+Noah Fiedel <nfiedel@google.com>, 6
+makseq-ubnt <makseq@gmail.com>, 6
+Jihun Choi <jhchoi@europa.snu.ac.kr>, 6
+Wei Ho <weiho4+github@gmail.com>, 6
+Till Hoffmann <tillahoffmann@gmail.com>, 6
+Alexander Rosenberg Johansen <alexander@herhjemme.dk>, 6
+Jonas Rauber <jonasrauber@users.noreply.github.com>, 6
+e3 <eerwitt@gmail.com>, 6
+jmtatsch <tatsch@gmail.com>, 6
+David Z. Chen <dzc@google.com>, 6
+Jack Rae <jwrae@google.com>, 6
+Frank Li <lif@google.com>, 6
+SergejsRk <sergejs.rikacovs@lumii.lv>, 6
+Damien Martin-Guillerez <dmarting@google.com>, 6
+Sung Kim <hunkim@gmail.com>, 6
+Alan Wu <alan.c.wu@gmail.com>, 6
+Ben Lee <blee@google.com>, 6
+David Soergel <dev@davidsoergel.com>, 5
+taknevski <avenkat@ssr-nfs1.sc.intel.com>, 5
+Danijar Hafner <mail@danijar.com>, 5
+DjangoPeng <pjt73651@gmail.com>, 5
+Darren Garvey <darren.garvey@gmail.com>, 5
+Sanders Kleinfeld <skleinfeld@google.com>, 5
+Nikhil Mishra <nikhilmishra000@gmail.com>, 5
+HyoukJoong Lee <hyouklee@google.com>, 5
+Andrew Selle <aselle@andyselle.com>, 5
+Tayo Oguntebi <tayo@google.com>, 5
+AidanGG <AidanGG@users.noreply.github.com>, 5
+Yuwen Yan <ybbaigo@gmail.com>, 5
+Daniel Trebbien <dtrebbien@gmail.com>, 5
+haosdent <haosdent@gmail.com>, 4
+Alex Rothberg <agrothberg@gmail.com>, 4
+Anand Chakravarty <anandc@google.com>, 4
+Comic Chang <comicchang@gmail.com>, 4
+hunkim <hunkim@gmail.com>, 4
+ebrevdo <ebrevdo@gmail.com>, 4
+ninotoshi <ninotoshi@users.noreply.github.com>, 4
+Wang Yang <khil.wang@gmail.com>, 4
+Bjarke Hammersholt Roune <broune@google.com>, 4
+Marek Kolodziej <mkolod@gmail.com>, 4
+Jakub Kolodziejczyk <jakub.kolodziejczyk@mail.com>, 4
+Victor Melo <victorhcmelo@gmail.com>, 4
+Christopher Olston <olston@google.com>, 4
+Chad Kennedy <chadkennedyonline@users.noreply.github.com>, 4
+Frank Chu <fpmc@google.com>, 4
+Craig Citro <craigcitro@google.com>, 4
+Adam Roberts <adarob@google.com>, 4
+znah <moralex@google.com>, 4
+Kristina Chodorow <kchodorow@google.com>, 3
+Zafar Takhirov <zafartahirov@users.noreply.github.com>, 3
+Viacheslav Kovalevskyi <vkovalevskyi@google.com>, 3
+e-lin <e-lin@groovenauts.jp>, 3
+Yoni Ben-Meshulam <yonib@google.com>, 3
+Anish Shah <shah.anish07@gmail.com>, 3
+Gustav Larsson <gustav.m.larsson@gmail.com>, 3
+Paul Tucker <paul.tucker@gmail.com>, 3
+Yota Toyama <raviqqe@gmail.com>, 3
+Daniel Smilkov <dsmilkov@gmail.com>, 3
+chemelnucfin <alan.c.wu@gmail.com>, 3
+Igor Macedo Quintanilha <igormq@poli.ufrj.br>, 3
+郭同jet · 耐心 <779222056@qq.com>, 3
+Zero Chen <chengang31@gmail.com>, 3
+Yunfeng Wang <vra@users.noreply.github.com>, 3
+Andrew Dai <adai@google.com>, 3
+Victor Costan <costan@gmail.com>, 3
+b0noI <viacheslav@b0noi.com>, 3
+Jacques Pienaar <jpienaar@google.com>, 3
+SeongJae Park <sj38.park@gmail.com>, 3
+ry <ry@tinyclouds.org>, 3
+Ali Elqursh <elqursh@google.com>, 3
+Di Zeng <di.zeng@transcendrobotics.com>, 3
+Olivia <nolivia@umich.edu>, 3
+Robert DiPietro <rdipietro@gmail.com>, 3
+Aki Sukegawa <nsukeg@gmail.com>, 3
+James Wexler <jwexler@google.com>, 3
+harold cooper <hrldcpr@gmail.com>, 3
+Mark McDonald <macd@google.com>, 3
+Kevin Rose <kevin+gh@maypark.com>, 3
+Laurent Mazare <laurent.mazare@gmail.com>, 3
+Raingo <raingomm@gmail.com>, 3
+Dan <danmane@google.com>, 3
+Darcy Liu <darcyliu@outlook.com>, 3
+Simon DENEL <simondenel1@gmail.com>, 3
+Abhinav Upadhyay <er.abhinav.upadhyay@gmail.com>, 3
+Christian Jauvin <cjauvin@gmail.com>, 3
+Ondřej Filip <ondri.f@gmail.com>, 3
+Haosdent Huang <haosdent@gmail.com>, 3
+SunYeop Lee <qbx2@users.noreply.github.com>, 3
+MrQianjinsi <mrqianjinsi@gmail.com>, 3
+Fangwei Li <fangweil@google.com>, 3
+Andreas Eberle <email@andreas-eberle.com>, 3
+Cassandra Xia <cssndrx@gmail.com>, 3
+Jon Shlens <jon.from.california@gmail.com>, 3
+dauba-dauba <kris@alum.mit.edu>, 3
+Ronny <ronrest@users.noreply.github.com>, 3
+Martin Englund <martin@englund.nu>, 3
+Andrew Hundt <ATHundt@gmail.com>, 3
+Aaron Hu <inflation@users.noreply.github.com>, 3
+Danny Goodman <goodman.danny@gmail.com>, 3
+cais <cais@google.com>, 2
+Todd Wang <toddw@google.com>, 2
+Tijmen Tieleman <tijmentieleman@gmail.com>, 2
+Dan J <daj@users.noreply.github.com>, 2
+Niels Ole Salscheider <niels_ole@salscheider-online.de>, 2
+Bryon Gloden, CISSP® <cissp@bryongloden.com>, 2
+Jongwook Choi <wookayin@gmail.com>, 2
+Jim Fleming <jimmy.fleming@gmail.com>, 2
+maxmelnick <maxmelnick@gmail.com>, 2
+manipopopo <shushukk123@gmail.com>, 2
+Makoto Uchida <muchida@google.com>, 2
+Thijs Vogels <t.vogels@me.com>, 2
+Nathan Howell <nathan.d.howell@gmail.com>, 2
+Yi-Lin Juang <frankyjuang@gmail.com>, 2
+Keiji Kanazawa <gojira@users.noreply.github.com>, 2
+Terry Tang <terrytangyuan@gmail.com>, 2
+BoyuanJiang <ginger188@gmail.com>, 2
+kborer <kris@key.me>, 2
+annarev <annarev@google.com>, 2
+Ivan Ukhov <ivan.ukhov@gmail.com>, 2
+Nikhil Mishra <nmishra@berkeley.edu>, 2
+Akiomi KAMAKURA <akiomik@gmail.com>, 2
+William Dmitri Breaden Madden <william.dmitri.breaden.madden@cern.ch>, 2
+Neal Wu <neal@nealwu.com>, 2
+Chad Whipkey <cwhipkey@google.com>, 2
+David Z. Chen <david@davidzchen.com>, 2
+Cameron Chen <cameron.ph.chen@gmail.com>, 2
+Przemyslaw Tredak <ptrendx@gmail.com>, 2
+Vit Stepanovs <vistepan@microsoft.com>, 2
+Zohar Jackson <zohar.jackson+github@gmail.com>, 2
+Joao Felipe Santos <joao.eel@gmail.com>, 2
+rasbt <mail@sebastianraschka.com>, 2
+Zongheng Yang <concretevitamin@users.noreply.github.com>, 2
+Micael Carvalho <MicaelCarvalho@users.noreply.github.com>, 2
+Mu-ik Jeon <muikor@gmail.com>, 2
+Kevin Robinson <kevin.robinson.0@gmail.com>, 2
+Jonas Meinertz Hansen <Styrke@users.noreply.github.com>, 2
+Jay Young <github@yjmade.net>, 2
+Daniel Golden <dan@arterys.com>, 2
+Carmezim <carmezim.filho@gmail.com>, 2
+admcrae <admcrae6@gmail.com>, 2
+Eron Wright <ewright@live.com>, 2
+Vesnica <hsdpsch@gmail.com>, 2
+namrata-ibm <bhavenamrata@gmail.com>, 2
+Henry Saputra <hsaputra@apache.org>, 2
+Yoshihiro Sugi <sugi1982@gmail.com>, 2
+Johannes Mayer <haniballsadresse@gmx.at>, 2
+cg <chengang31@gmail.com>, 2
+RainerWasserfuhr <rainerwasserfuhr+GitHub@gmail.com>, 2
+Toby Boyd <tobyboyd@google.com>, 2
+Blake Hechtman <blakehechtman@google.com>, 2
+nagachika <nagachika@ruby-lang.org>, 2
+Wei-Ting Kuo <waitingkuo0527@gmail.com>, 2
+Saurabh Saxena <srbs@google.com>, 2
+Ilya Edrenkin <ilya.edrenkin@gmail.com>, 2
+Christopher Shallue <shallue@google.com>, 2
+dcastro9 <dcastro9@gatech.edu>, 2
+Pedro Lopes <lopes.m.pedro@gmail.com>, 2
+Yi Liu <liu.yi.pei@gmail.com>, 2
+Appleholic <cij1230@naver.com>, 2
+Mark Borgerding <mark@borgerding.net>, 2
+vhasanov <KyotoSunshine@users.noreply.github.com>, 2
+Justus Schwabedal <jusjusjus@users.noreply.github.com>, 2
+Leonard Lee <896066322@qq.com>, 2
+tvn <vanthuyen@gmail.com>, 2
+Jan Wilken Dörrie <jdoerrie@users.noreply.github.com>, 2
+Erik Erwitt <eerwitt@users.noreply.github.com>, 2
+Daniel Castro Chin <dcastro@google.com>, 2
+Abhi Agg <abhi@abhitopia.com>, 2
+Jeff Hammerbacher <jeff.hammerbacher@gmail.com>, 2
+Daeyun Shin <daeyunshin@gmail.com>, 2
+Linchao Zhu <zhulinchao7@gmail.com>, 2
+Longqi Yang <ylongqi@gmail.com>, 2
+Hans Pabst <hans.pabst@intel.com>, 2
+Nathan Howell <nhowell@alphaheavy.com>, 2
+Brian Williammee <bwill@google.com>, 2
+skavulya <soila.p.kavulya@intel.com>, 2
+chadkennedyonline <chadkennedyonline@users.noreply.github.com>, 2
+Karen Brems <kbrems@users.noreply.github.com>, 2
+Kashif Rasul <kashif.rasul@gmail.com>, 2
+drag0 <drag0@users.noreply.github.com>, 2
+Jonas Meinertz Hansen <JonasMeinertz@users.noreply.github.com>, 2
+Vijay D'Silva <vijaydsilva@google.com>, 2
+Gregory King <kingtaurus@users.noreply.github.com>, 2
+Hanna Revinskaya <annarev@google.com>, 2
+Christopher Bonnett <c.bonnett@gmail.com>, 2
+Zhifeng Chen <zhifengc@google.com>, 2
+ivallesp <ivanvallesperez@gmail.com>, 2
+Chris Lesniewski <ctl@mit.edu>, 2
+jalammar <alammar@gmail.com>, 2
+Victor Villas <villasv@outlook.com>, 2
+Malcolm Reynolds <mareynolds@google.com>, 2
+tijmentieleman <tijmentieleman@gmail.com>, 2
+Brandon Amos <bdamos@vt.edu>, 2
+Sanders Kleinfeld <sandersk@users.noreply.github.com>, 2
+Andrew Gibiansky <andrew.gibiansky@gmail.com>, 2
+Pieter de Rijk <pieter@de-rijk.com>, 2
+Corey Wharton <corey@cwharton.com>, 2
+Alexander Mordvintsev <moralex@google.com>, 2
+Mandeep Singh <mandeep25894@gmail.com>, 2
+Ken Shirriff <ken.shirriff@gmail.com>, 1
+Rob Culliton <rob.culliton@gmail.com>, 1
+Alexander Novikov <novikov@bayesgroup.ru>, 1
+Clement Courbet <clement.courbet@gmail.com>, 1
+Daniel Waterworth <da.waterworth@gmail.com>, 1
+Michael Basilyan <mbasilyan@gmail.com>, 1
+LI Yi <liyi.novo@gmail.com>, 1
+Sergey Kishchenko <voidwrk@gmail.com>, 1
+Daniel N. Lang <velaia@users.noreply.github.com>, 1
+Sarath Shekkizhar <0.omailbin@gmail.com>, 1
+Connor Braa <cwlbraa@users.noreply.github.com>, 1
+Quarazy <quarazy@gmail.com>, 1
+SriramRamesh <grksriram321@gmail.com>, 1
+Emmanuel T Odeke <odeke@ualberta.ca>, 1
+Dave Decker <dave.decker@gmail.com>, 1
+Jesper Steen Møller <jesper@selskabet.org>, 1
+Kamil Hryniewicz <kamil.hryniewicz@gmail.com>, 1
+ross <thisisjcykcd@gmail.com>, 1
+chanis <chenxd@pku.edu.cn>, 1
+cwhipkey <cwhipkey@google.com>, 1
+Olav Nymoen <olav@comoyo.com>, 1
+Andy Chong Chin Shin <andychong2@gmail.com>, 1
+Dan Van Boxel <the.dvb@gmail.com>, 1
+Steffen Müller <smueller@cpan.org>, 1
+Snake Charmer <snakecharmer1024@users.noreply.github.com>, 1
+Philip Pries Henningsen <philip.henningsen@gmail.com>, 1
+Jeongkyu Shin <inureyes@gmail.com>, 1
+Moussa Taifi <moutai10@gmail.com>, 1
+liyongsea <lijia0765@gmail.com>, 1
+Morten Just <morten.just@genstart.dk>, 1
+Dmitri Lapin <lapin@cvisionlab.com>, 1
+Ernest Grzybowski <ErnestG@users.noreply.github.com>, 1
+ichuang <ichuang@mit.edu>, 1
+Ken Shirriff <web1@righto.com>, 1
+timsl <tiol@kth.se>, 1
+Mandar <01.mandar@gmail.com>, 1
+Luheng He <luheng@uw.edu>, 1
+Thomas Oldervoll <thomas.oldervoll@zenior.no>, 1
+Tiago Jorge <tiago.nuno.jorge@gmail.com>, 1
+Eric Nielsen <nielsene@google.com>, 1
+Gökçen Eraslan <gokcen.eraslan@gmail.com>, 1
+Niklas Riekenbrauck <nikriek@users.noreply.github.com>, 1
+Adam Michael <adam@ajmichael.net>, 1
+Brady Zhou <brady.zhou@utexas.edu>, 1
+Andre Cruz <andre.cruz@co.sapo.pt>, 1
+Loo Rong Jie <loorongjie@gmail.com>, 1
+Nick Sweeting <git@nicksweeting.com>, 1
+Undo1 <Undo1@users.noreply.github.com>, 1
+Alexander G. de G. Matthews <alexggmatthews@googlemail.com>, 1
+Mihir Patel <mihir.v.patel7@gmail.com>, 1
+urimend <urimend@gmail.com>, 1
+Chih Cheng Liang <chihchengliang@gmail.com>, 1
+Iblis Lin <e196819@hotmail.com>, 1
+Garrett Smith <g@rre.tt>, 1
+Amlan Kar <amlan.asaa@gmail.com>, 1
+Kai Wolf <kai.wolf@gmail.com>, 1
+Zikes, Jan <jan.zikes@merck.com>, 1
+YenChenLin <yenchenlin1994@gmail.com>, 1
+David Jones <dgjones@gmail.com>, 1
+Mario Cho <hephaex@gmail.com>, 1
+emmjaykay <mjk@emmjaykay.org>, 1
+Courtial Florian <floriancourtial@gmail.com>, 1
+akash <aptro@users.noreply.github.com>, 1
+Gideon Dresdner <gideond+github@gmail.com>, 1
+Muammar ibn Faisal <muammar.alshedivat@gmail.com>, 1
+Yilei Yang <yileiyang9@gmail.com>, 1
+baoblackcoal <baoblackcoal@gmail.com>, 1
+Chenyang Liu <chenyang.liu@bodylabs.com>, 1
+Julian Berman <Julian@GrayVines.com>, 1
+Dan Vanderkam <danvdk@gmail.com>, 1
+Andrew Thomas <andrewt@gmail.com>, 1
+Iver Jordal <iver56@hotmail.com>, 1
+Vladislav Gubarev <gubarev@cvisionlab.com>, 1
+Kamran Amini <kam.cpp@gmail.com>, 1
+Ondrej Skopek <skopekondrej@gmail.com>, 1
+Lukas Krecan <lukas@krecan.net>, 1
+Mathew Wicks <mathew.wicks@gmail.com>, 1
+Josh Bleecher Snyder <josharian@gmail.com>, 1
+Finbarr Timbers <finbarrtimbers@gmail.com>, 1
+Andrew Gibiansky <gibianskyandrew@baidu.com>, 1
+Shan Carter <shanjcarter@gmail.com>, 1
+LUO Yun <LaurenLuoYun@users.noreply.github.com>, 1
+aymericdamien <aymeric.damien@gmail.com>, 1
+Alex Kendall <alexgkendall@users.noreply.github.com>, 1
+Andrew Stromme <andrew.stromme@gmail.com>, 1
+HW-ZZ <dingzezhen@huawei.com>, 1
+Rohit Girdhar <rohitgirdhar@users.noreply.github.com>, 1
+tobe <tobeg3oogle@gmail.com>, 1
+Arnaud Lenglet <arlenglet@gmail.com>, 1
+Andre Simpelo <dresimpelo@gmail.com>, 1
+Nishant Shukla <nick722@gmail.com>, 1
+Fisher Coder <fishercoder1534@users.noreply.github.com>, 1
+KOUASSI Konan Jean-Claude <apj_jeanclaude@yahoo.fr>, 1
+Kye Bostelmann <bostelk@users.noreply.github.com>, 1
+Ajay Rao <ajayraop3495@gmail.com>, 1
+Kanit Wongsuphasawat <kanitw@gmail.com>, 1
+Zachary Lipton <zachary.chase@gmail.com>, 1
+Norman Heckscher <norman.heckscher@gmail.com>, 1
+Maxim Grechkin <maximsch2@gmail.com>, 1
+Stephen Roller <roller@cs.utexas.edu>, 1
+Alex Sergeev <alexander.sergeev@live.com>, 1
+ronrest <ronny.coding@gmail.com>, 1
+Denny Britz <dennybritz@gmail.com>, 1
+Ling Zhang <lingliangz@gmail.com>, 1
+Robin-des-Bois <rvaaler@student.ethz.ch>, 1
+Bofu Chen <bafuchen@gmail.com>, 1
+Carl Thomé <carlthome@gmail.com>, 1
+Lezcano <Lezcano@users.noreply.github.com>, 1
+Satoshi Kataoka <satok16@gmail.com>, 1
+Syed Ahmed <syed.ahmed.emails@gmail.com>, 1
+SeongAhJo <seongside@gmail.com>, 1
+Zafar Takhirov <cc.rafaz@zafar.cc>, 1
+Benjamin Mularczyk <mularczb@student.ethz.ch>, 1
+Pengfei Ni <feiskyer@gmail.com>, 1
+Holst, Henrik <henrik.holst@frostbite.com>, 1
+Rizwan Asif <rizasif@gmail.com>, 1
+prolearner <riccardo.grazz@gmail.com>, 1
+Issac <issac.sacrifice@gmail.com>, 1
+Kenneth Mitchner <ken.mitchner@mongoosemetrics.com>, 1
+Junpeng Lao <junpeng.lao@unifr.ch>, 1
+bakunyo <izuta.hiroyuki@gmail.com>, 1
+Egor-Krivov <egor.krivov@frtk.ru>, 1
+Sebastian Raschka <mail@sebastianraschka.com>, 1
+Shi Jiaxin <thjashin123@126.com>, 1
+Damien Martin-Guillerez <damienmg@users.noreply.github.com>, 1
+polonez <et.totum@gmail.com>, 1
+mecab <masafumi.orz@gmail.com>, 1
+Russell Kaplan <russell.j.kaplan@gmail.com>, 1
+Alex Vig <jalexvig@gmail.com>, 1
+Tushar Soni <tusharsoni08@users.noreply.github.com>, 1
+Lucas Adams <lucas.adams@wiser.com>, 1
+Florian Courtial <floriancourtial@gmail.com>, 1
+Justin Francis <alliseesolutions@gmail.com>, 1
+Franck Dernoncourt <franck.dernoncourt@gmail.com>, 1
+Bob Adolf <rdadolf@gmail.com>, 1
+Waleed <waleed.abdulla@gmail.com>, 1
+Abhishek Aggarwal <abhi@abhitopia.com>, 1
+Changming Sun <chasun@microsoft.com>, 1
+Boris Daskalov <boris@hyperscience.com>, 1
+fredbertsch <fredbertsch@google.com>, 1
+Vincent Vanhoucke <vanhoucke@gmail.com>, 1
+Larissa Laich <larissa95@users.noreply.github.com>, 1
+Ian <cs.cchad@gmail.com>, 1
+Asim Shankar <asimshankar@gmail.com>, 1
+Yusef Shafi <yusef@google.com>, 1
+Rudolf Rosa <rosa@ufal.mff.cuni.cz>, 1
+sharkdtu <sharkd.tu@gmail.com>, 1
+Scott Graham <git@gramhagen.com>, 1
+Martin <martin.mekota@gmail.com>, 1
+John Allen <johnjalleniii@gmail.com>, 1
+Matthias Winkelmann <MatthiasWinkelmann@users.noreply.github.com>, 1
+Wolff Dobson <wolffg@users.noreply.github.com>, 1
+Johannes Haux <johannes.haux@gmx.de>, 1
+Jules Gagnon-Marchand <jules_gagnonm@hotmail.com>, 1
+Jennifer Guo <jennifer.jinyuan.guo@gmail.com>, 1
+Tim Harley <tharley@google.com>, 1
+Dmitry Savintsev <dsavints@gmail.com>, 1
+Isaac Turner <turner.isaac@gmail.com>, 1
+Adriano <carmezim.filho@gmail.com>, 1
+Ben Lee <benjamin.n.lee@gmail.com>, 1
+Łukasz Bieniasz-Krzywiec <lukaszbk@gmail.com>, 1
+zhongyuk <zhongyuk@users.noreply.github.com>, 1
+Isaac Hodes <isaachodes@gmail.com>, 1
+Johan Mathe <johmathe@users.noreply.github.com>, 1
+Georg Nebehay <gnebehay@gmail.com>, 1
+mikowals <mikowals@gmail.com>, 1
+TheUSER123 <nikita.huston@yandex.ru>, 1
+Charles-Emmanuel <Charles-Emmanuel.Dias@etu.upmc.fr>, 1
+gaohuazuo <gaohuazuo@gmail.com>, 1
+Raven Iqqe <raviqqe@gmail.com>, 1
+Sachin Joglekar <srjoglekar246@gmail.com>, 1
+lahwran <lahwran@users.noreply.github.com>, 1
+Nick Meehan <nick@unsalted.nu>, 1
+Austin Marshall <amarshall@numenta.com>, 1
+Sagan Bolliger <git-contact@saganbolliger.com>, 1
+a7744hsc <s20121033@xs.ustb.edu.cn>, 1
+Mathew Wicks <thesuperzapper@users.noreply.github.com>, 1
+dresimpelo <dresimpelo@gmail.com>, 1
+Nathan Daly <NHDaly@gmail.com>, 1
+sono-bfio <sono@bitfusion.io>, 1
+elirex <sheng79225@gmail.com>, 1
+Memo Akten <memo@memo.tv>, 1
+Lie He <liam.he15@gmail.com>, 1
+Thomas Lee <ThomasLee969@users.noreply.github.com>, 1
+Nand Dalal <nand@clarifai.com>, 1
+jpangburn <jesse_pangburn@yahoo.com>, 1
+shenhanc78 <shenhan@google.com>, 1
+Aurelien Geron <aurelien.geron@gmail.com>, 1
+Brian Diesel <brian@designcondition.com>, 1
+Aggelos Avgerinos <evaggelos.avgerinos@gmail.com>, 1
+Maniteja Nandana <manitejanmt@gmail.com>, 1
+Liang-Chi Hsieh <viirya@gmail.com>, 1
+Daniel Rodriguez <df.rodriguez143@gmail.com>, 1
+heinzbeinz <heinzbeinz@gmail.com>, 1
+Nick Butlin <nicholasbutlin@gmail.com>, 1
+Todd Wang <toddwang@gmail.com>, 1
+Pranav Sailesh Mani <pranav656@gmail.com>, 1
+Marc Khoury <marc.khry@gmail.com>, 1
+Denis Gorbachev <denis.d.gorbachev@gmail.com>, 1
+Inflation <hypernovagama@gmail.com>, 1
+Yuya Kusakabe <yuya.kusakabe@gmail.com>, 1
+Chen Yu <chenyyuio@gmail.com>, 1
+DI ZENG <di.zeng@transcendrobotics.com>, 1
+wujingyue <wujingyue@gmail.com>, 1
+Jon Shlens <shlens@google.com>, 1
+Adam Crume <acrume@google.com>, 1
+Abid K <abidrahman2@gmail.com>, 1
+Gaetan Semet <gaetan@xeberon.net>, 1
+G. Hussain Chinoy <ghchinoy@gmail.com>, 1
+lekaha <lekaha@gmail.com>, 1
+Javier Dehesa <javidcf@gmail.com>, 1
+Takeshi Hagikura <thagikura@google.com>, 1
+kchen92 <kchen92@stanford.edu>, 1
+fp <fisherpk@gmail.com>, 1
+suiyuan2009 <dzm1016397507@gmail.com>, 1
+Joan Pastor <joapaspe@gmail.com>, 1
+Ben Dilday <bdilday@users.noreply.github.com>, 1
+Bas Veeling <basveeling@gmail.com>, 1
+James Fysh <james.fysh@gmail.com>, 1
+nick <nsipplswezey@users.noreply.github.com>, 1
+Konrad Magnusson <konradma@kth.se>, 1
+Eric Platon <zaraki@gmx.com>, 1
+lilac <cnJamesDeng@gmail.com>, 1
+Karl Lattimer <karl@qdh.org.uk>, 1
+Ben Barsdell <benbarsdell@gmail.com>, 1
+Robert Rose <moof2k@users.noreply.github.com>, 1
+Ted Fujimoto <tfturing@gmail.com>, 1
+mlucool <mlucool@gmail.com>, 1
+Shinichiro Hamaji <shinichiro.hamaji@gmail.com>, 1
+Naveen Sundar G <naveensundarg@gmail.com>, 1
+Cesar Salgado <cesarsvs@gmail.com>, 1
+Alexander Mossin <almos@google.com>, 1
+Kirill Bobyrev <omtcyfz@users.noreply.github.com>, 1
+Mikalai Drabovich <drabovich@gmail.com>, 1
+Neil Han <neil.han@gmail.com>, 1
+danielgordon10 <danielgordon10@gmail.com>, 1
+Hannah Provenza <hprovenza@gmail.com>, 1
+newge <newge@users.noreply.github.com>, 1
+Ghedeon <asfalit@gmail.com>, 1
+rizzomichaelg <rizzomichaelg@users.noreply.github.com>, 1
+breandan <breandan.considine@gmail.com>, 1
+Erik Aigner <aigner.erik@gmail.com>, 1
+郑泽宇 <perhaps.other@gmail.com>, 1
+Jan Zikes <ziky90@gmail.com>, 1
+hoangmit <hoangmit@users.noreply.github.com>, 1
+OscarDPan <zpan@yodlee.com>, 1
+Marco Marchesi <marchesimarco@gmail.com>, 1
+Daniel Julius Lasiman <dj.lasiman@gmail.com>, 1
+Philipp Jund <jundp@informatik.uni-freiburg.de>, 1
+Martial Hue <martial.hue@gmail.com>, 1
+lucasmoura <lucas.moura128@gmail.com>, 1
+David Brailovsky <davidbrai@gmail.com>, 1
+Cheng-Lung Sung <clsung@gmail.com>, 1
+Hao WEI <foreverfaint@gmail.com>, 1
+c0g <tom.nickson@gmail.com>, 1
+Sahil Sharma <Sahil@cse.iitm.ac.in>, 1
+Nishidha Panpaliya <nishidha@us.ibm.com>, 1
+Ofir Press <press@ofir.io>, 1
+Bi-Ruei, Chiu <biruei.chiu@gmail.com>, 1
+Jack Zhang <moonboots08@gmail.com>, 1
+Dylan Paiton <dpaiton@users.noreply.github.com>, 1
+Timothy J Laurent <timothyjlaurent@gmail.com>, 1
+Elia Palme <elia.palme@gmail.com>, 1
+Lucas Moura <lucas.moura128@gmail.com>, 1
+Konstantin Lopuhin <kostia.lopuhin@gmail.com>, 1
+nschuc <nathan.schucher@gmail.com>, 1
+Jonathan Raiman <jonathanraiman@gmail.com>, 1
+Povilas Liubauskas <liubauskas@gmail.com>, 1
+Xuesong Yang <xuesongyxs@gmail.com>, 1
+John Pope <jp@bellgeorge.com>, 1
+Dan Jarvis <dan@cookbrite.com>, 1
+Andrew Royer <agroyer@gmail.com>, 1
+Yeison Rodriguez <dev.yeison@gmail.com>, 1
+mahmoud-abuzaina <mahmoud.abuzaina@intel.com>, 1
+Pēteris Paikens <PeterisP@gmail.com>, 1
+Yuming Wang <wgyumg@gmail.com>, 1
+Malith Yapa <malithyapa@gmail.com>, 1
+Medhat Omr <medhat.omr@gmail.com>, 1
+Pablo Moyano <ultraklon@gmail.com>, 1
+Petr Janda <petrjandacz@gmail.com>, 1
+Bastiaan Quast <bquast@gmail.com>, 1
+papelita1234 <cachanzheng@gmail.com>, 1
+Dustin Dorroh <dustindorroh@gmail.com>, 1
+ssyrain <songshiyurain@126.com>, 1
+Johann Petrak <johann.petrak@gmail.com>, 1
+Andrew Dai <andy.dai@gmail.com>, 1
+Vladislav <Vlsarro@users.noreply.github.com>, 1
+Kai Curtis <code@kcurtis.com>, 1
+Jacob Israel <JacobIsrael123@users.noreply.github.com>, 1
+David Dao <contact.daviddao@gmail.com>, 1
+J Yegerlehner <jyegerlehner@yahoo.com>, 1
+Sam Putnam <samhputnam@gmail.com>, 1
+Anton Loss <optimbid@gmail.com>, 1
+Jeff Hodges <jeff@somethingsimilar.com>, 1
+Andreas Madsen <amwebdk@gmail.com>, 1
+Hannes <schulz@ais.uni-bonn.de>, 1
+Isaac Yang <tchngyang@gmail.com>, 1
+Steve <steverichey@users.noreply.github.com>, 1
+Andy Kitchen <kitchen.andy@gmail.com>, 1
+Zack Polizzi <zplizzi@users.noreply.github.com>, 1
+zffchen78 <zffchen78@users.noreply.github.com>, 1
+Karl Lessard <karllessard@users.noreply.github.com>, 1
+David Norman <DavidNorman@users.noreply.github.com>, 1
+Nayana Thorat <nayana.thorat@gmail.com>, 1
+ironhead <ironhead.chuang@gmail.com>, 1
+Milan Straka <milan@strakovi.com>, 1
+Nikolaas Steenbergen <nikolaas.steenbergen@googlemail.com>, 1
+jangsoo park <wkdtn8211@gmail.com>, 1
+Mrinal Kalakrishnan <kalakris@google.com>, 1
+Vlad Zagorodniy <vladzzag@gmail.com>, 1
+Nishidha <nishidha@us.ibm.com>, 1
+Shota <shotat@users.noreply.github.com>, 1
+Burness Duan <burness1990@gmail.com>, 1
+Henrik Holst <holst@matmech.com>, 1
+Joshi <rekhajoshm@gmail.com>, 1
+Gavin Sherry <gavin.sherry@gmail.com>, 1
+arahuja <aahuja11@gmail.com>, 1
+Michael Heilman <mheilman@civisanalytics.com>, 1
+David Kretch <david.kretch@gmail.com>, 1
+Kannappan Sirchabesan <hashkanna@gmail.com>, 1
+Singlet <aleksandr@yahnev.ru>, 1
+Evan Cofer <ecofer@trinity.edu>, 1
+Awni Hannun <awni.hannun@gmail.com>, 1
+Justin Harris <justin.harris@maluuba.com>, 1
+Jin Kim <golbin@gmail.com>, 1
+Sangheum <sangheum.hwang@gmail.com>, 1
+MarkDaoust <daoust.mj@gmail.com>, 1
+Glen Baker <iepathos@gmail.com>, 1
+josh11b <josh11b@users.noreply.github.com>, 1
+Mostafa Rahmani <mostafarahmani13@yahoo.com>, 1
+Kristina <k.chodorow@gmail.com>, 1
+hartb <hartb@us.ibm.com>, 1
+Michael Peteuil <michael.peteuil@gmail.com>, 1
+Fabien Benureau <fabien.benureau+github@gmail.com>, 1
+Felix Maximilian Möller <felixmaximilian@gmail.com>, 1
+Krishna Sankar <xsankar@users.noreply.github.com>, 1
+Haroen Viaene <fingebimus@me.com>, 1
+Rehs, Philipp Helo <philipp.rehs@uni-duesseldorf.de>, 1
+gilberth <gilberth@google.com>, 1
+Yangqing Jia <jiayq84@gmail.com>, 1
+Nico Galoppo <nico.galoppo@intel.com>, 1
+gunan <gunan@gunan-glaptop2.roam.corp.google.com>, 1
+Nicolas Fauchereau <Nicolas.Fauchereau@gmail.com>, 1
+lvli <lvli@yangqianguan.com>, 1
+Gu Wang <wangg12@users.noreply.github.com>, 1
+Kenta Yonekura <yoneken@ieee.org>, 1
+Bernardo Pires <carneiro.be@gmail.com>, 1
+Arbit Chen <itsarbit@gmail.com>, 1
+Orion Reblitz-Richardson <orionr@gmail.com>, 1
+beopst <sangheum.hwang@gmail.com>, 1
+Adam Crume <adamcrume@gmail.com>, 1
+yaroslavvb@gmail.com <yaroslavvb@gmail.com>, 1
+Balachander Ramachandran <moontails@users.noreply.github.com>, 1
+Ville Kallioniemi <ville.kallioniemi@gmail.com>, 1
+J Alammar <alammar@gmail.com>, 1
+Jarek Wilkiewicz <jarekw@google.com>, 1
+Taehoon Kim <carpedm20@gmail.com>, 1
+Leo Mao <leomao@users.noreply.github.com>, 1
+Bart Coppens <kde@bartcoppens.be>, 1
+Nishant Agrawal <root-nishi@users.noreply.github.com>, 1
+Evgeny Mazovetskiy <otzy@users.noreply.github.com>, 1
+Richard Shin <shin.richard@gmail.com>, 1
+znah <zzznah@gmail.com>, 1
+Wladimir Schmidt <wlsc.dev@gmail.com>, 1
+Vlad Frolov <frolvlad@gmail.com>, 1
+Yan Chen <yanchen036@gmail.com>, 1
+RustingSword <i@toonaive.me>, 1
+Kenton Lee <kentonl@cs.washington.edu>, 1
+youyou3 <readleister@gmail.com>, 1
+ysuematsu <yutaka.leon@gmail.com>, 1
+Kyle Bostelmann <bostelk@users.noreply.github.com>, 1
+Ben guidarelli <ben.guidarelli@gmail.com>, 1
+Mostafa Gazar <mmegazar@gmail.com>, 1
+mouradmourafiq <mouradmourafiq@gmail.com>, 1
+BanditCat <bcj1980@gmail.com>, 1
+Jithin Odattu <jithinoc@users.noreply.github.com>, 1
+Vahid Kazemi <vahid@google.com>, 1
+Carl Vondrick <vondrick@mit.edu>, 1
+AfirSraftGarrier <AfirSraftGarrier@gmail.com>, 1
+Uwe Schmidt <uschmidt83@users.noreply.github.com>, 1
+Jonas Rauber <git@jonasrauber.de>, 1
+Fabrício Ceschin <fabricioceschin@gmail.com>, 1
+Hvass-Labs <Hvass-Labs@users.noreply.github.com>, 1
+Aaron Schumacher <ajschumacher@gmail.com>, 1
+Wangda Tan <wheeleast@gmail.com>, 1
+Moustafa Alzantot <m.alzantot@gmail.com>, 1
+Haebin Shin <sunsal0704@gmail.com>, 1
+Dmytro Lituiev <d.lituiev@gmail.com>, 1
+Park Jiin <tisphie@gmail.com>, 1
+Keiji Ariyama <keiji_ariyama@c-lis.co.jp>, 1
+Gagan Goel <gagan.nith@gmail.com>, 1
+Chi Zeng <zeng.chi@gmail.com>, 1
+Joan Thibault <joan.thibault@ens-rennes.fr>, 1
+Julian Viereck <julian.viereck@gmail.com>, 1
+Ritwik Gupta <RitwikGupta@users.noreply.github.com>, 1
+afshinrahimi <afshinrahimi@gmail.com>, 1
+satok16 <satok16@gmail.com>, 1
+Akihiko ITOH <akihiko.mus+github@gmail.com>, 1
+tiriplicamihai <tiriplica.mihai@gmail.com>, 1
+Huarong <huohuarong@gmail.com>, 1
+Ashutosh Das <ashutoshdas96@users.noreply.github.com>, 1
+Aidan Dang <AidanGG@users.noreply.github.com>, 1
+Aziz Alto <iamaziz.alto@gmail.com>, 1
+Dan Aloni <alonid@gmail.com>, 1
+raoqiyu <raoqiyu@yeah.net>, 1
+Eren Güven <erenguven0@gmail.com>, 1
+qitaishui <philokeys@gmail.com>, 1
+okoriko <eurico@phybbit.com>, 1
+chanis <chanis@users.noreply.github.com>, 1
+Surya Bhupatiraju <surya95@gmail.com>, 1
+Olivier Grisel <olivier.grisel@ensta.org>, 1
+Thiébaud Weksteen <tweek@google.com>, 1
+Michael Heilman <mheilman@users.noreply.github.com>, 1
+Yuncheng Li <raingomm@gmail.com>, 1
+Vlad Zavidovych <zavidovych@users.noreply.github.com>, 1
+ExplodingCabbage <markamery@btinternet.com>, 1
