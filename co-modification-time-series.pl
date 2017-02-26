@@ -25,6 +25,7 @@ use Git::Repo::Commits;
 use File::Slurp::Tiny qw(write_file read_file);
 
 my $dir = shift || ".";
+say "Working on ·$dir·";
 my $commits = new Git::Repo::Commits $dir;
 
 my %commits_by_author;
