@@ -24,3 +24,6 @@ nytprof.out
 
 #Animation
 animation/
+
+#R
+.R*
