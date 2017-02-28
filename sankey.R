@@ -5,7 +5,7 @@ library(plyr)
  
 #load the edges with time stamp
 #there are three columns in edges: id1,id2,time
-edges <- read.table("data/edges-ack2.csv",header=T,quote="\"")
+edges <- read.table("data/rakudo-commit-coo.csv",header=T,quote="\"")
 colnames(edges) <- c("SourceName", "TargetName", "Weight")
 
 #generate the full graph
