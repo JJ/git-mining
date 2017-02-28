@@ -111,6 +111,12 @@ sub write_extension_file {
     }
   }
 
+  for (my $l = 0; $l <= $#links; $l++) {
+      if ( $links[$l]->{'source'} == $links[$l]->{'target'} ) {
+	  push @names, { name => "-> ".$names[$links[$l]->{'target'}]->{'name'} };
+	  $links[$l]->{'target'} = $#names;
+      }
+  }
   write_file( "$type-$repo.json", encode_json( { nodes => \@names, links => \@links } ) );
   write_correct_file( $extension_net, $type, $repo );
 }
