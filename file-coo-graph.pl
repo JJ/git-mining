@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-get-author-files.pl - download social graph stats from a github repo
+file-coo-graph.pl - Create file co-modification graphs and other similar files
 
 =head1 SYNOPSIS
 
@@ -20,9 +20,9 @@ use warnings;
 use v5.20;
 
 use Git;
-use Net::GitHub::V3;
 use File::Slurp::Tiny qw(write_file read_file);
 use SNA::Network;
+use JSON;
 
 my $dir = shift || ".";
 my ($repo_name)  = ($dir =~ m{/([^/]+)/?$} );
@@ -88,20 +88,30 @@ sub write_extension_file {
   my $repo = shift;
   my $hash = shift;;
   my %nodes;
+  my @links;
+  my @names;
   my $extension_net = SNA::Network->new();
   for my $k ( keys %$hash ) {
     if (!$nodes{$k} ) {
       $nodes{$k} = $extension_net->create_node( name => "\"$k\"" );
+      push @names, { name => $k };
     }
     for my $j ( keys %{$hash->{$k}} ) {
       if (!$nodes{$j} ) {
 	$nodes{$j} = $extension_net->create_node( name => "\"$j\"" );
+	push @names, { name => $j };
       }
+      push @links, { source => $nodes{$k}->{'index'},
+		     target => $nodes{$j}->{'index'},
+		     weight => $hash->{$k}{$j} };
+      
       $extension_net->create_edge( source_index => $nodes{$k}->{'index'},
 				   target_index => $nodes{$j}->{'index'},
 				   weight => $hash->{$k}{$j});
     }
   }
+
+  write_file( "$type-$repo.json", encode_json( { nodes => \@names, links => \@links } ) );
   write_correct_file( $extension_net, $type, $repo );
 }
 
