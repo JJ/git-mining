@@ -61171,3 +61171,5 @@ id0 id1 time
 "t/04-nativecall/05-arrays.t" "t/04-nativecall/06-struct.c" 26611
 "t/04-nativecall/05-arrays.t" "t/04-nativecall/06-struct.t" 26611
 "t/04-nativecall/06-struct.c" "t/04-nativecall/06-struct.t" 26611
+"src/core/Proc/Async.pm" "src/core/Rakudo/Internals/VMBackedDecoder.pm" 26613
+"src/core/REPL.pm" "t/02-rakudo/repl.t" 26618

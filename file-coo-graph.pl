@@ -124,8 +124,13 @@ sub write_extension_file {
 #Extract extension
 sub extension {
   my $f = shift;
-  my ($this_ext) = ( $f =~ /\.(\w+)$/ );
-  return $this_ext || "Ø";
+  if ( $f =~ /^\./ ) {
+      return "Dotfile";
+  } else {
+      my ($this_ext) = ( $f =~ /\.(\w+)$/ );
+      return $this_ext || "Ø";
+  }
+
 }
 
 #Extract extension
