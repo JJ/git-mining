@@ -27,3 +27,5 @@ animation/
 
 #R
 .R*
+
+django-edges.csv
