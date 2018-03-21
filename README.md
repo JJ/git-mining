@@ -15,3 +15,7 @@ The file comodification graphs can be extracted like this
 	
 it will generate 9 files with the graphs relating files and
 directories to one another. 
+
+## Data
+
+Contains data for different repositories, in network and csv format, including temporal information.
